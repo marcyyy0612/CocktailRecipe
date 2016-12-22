@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-CocktailRecipe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CocktailRecipeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CocktailRecipeUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XLPagerTabStrip-XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0037F537D79718F191839247D9EA59E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2426AC870EFAAF73B6139B1E8A2B0EA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E668DE1FDC645AAE93D2F45F5E84829</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C4B5DA2D2BCC49EE90AD9D2681E1B06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A85459CA3AB889D0AEF22B192CD9A452</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

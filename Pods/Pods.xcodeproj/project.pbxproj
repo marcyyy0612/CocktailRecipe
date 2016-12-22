@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DD1D36015DE155F2BBC977C1A8B502 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */; };
+		26BD3FC8F84D25FC50D5F1DF0282773E /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */; };
+		2762AC5BF0D9D6781BC09A5BB1D5824B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		34848A3A732EED6F8992ECF239ECBA4E /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		386B362A4DFF3784FA9F3C084CB0DEA1 /* Pods-CocktailRecipe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 677C99DD0930AD90E8C6020174A06C90 /* Pods-CocktailRecipe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		440BBAB81123253B7496323B51D6A59A /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04016E8BBEADE6BC563F0893A76F375C /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4865F9797645106F09652F9FAA2259D1 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */; };
+		5264B9FFBCDA74C78B163A1BF40AB922 /* Pods-CocktailRecipeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 480434962077C319D99DD5140D95A2D9 /* Pods-CocktailRecipeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5766F54AD50E933D51D9256698806B69 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */; };
+		5BBFD573EC4805600DBCBAE0D15C7B64 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */; };
+		610446ABF3CFB18BDC361606438E5337 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */; };
+		77424A678B11C11B814F716CAFA0EA48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		83D73D31A5AF1274862AEC2186710998 /* Pods-CocktailRecipeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB18A4B9A22B44F158B58E97C146C29A /* Pods-CocktailRecipeTests-dummy.m */; };
+		8B1418AA55D58F4F241FBD9FD7F6CCB0 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
+		9C3CE1CC3E7F57DA857F4941FEA72E4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9CAA1499D1149B1CFE442C58CC51A10D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		AB4E07BEDF6C04696DE7C02FF2A85D33 /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EABC2DB9E3FE7715A4CA7D20DB88FB2E /* XLPagerTabStrip.bundle */; };
+		B22C7DB16657F9D2B76627824C108D0C /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */; };
+		B3D253F2EEFA55994FF6E297D7C824E3 /* Pods-CocktailRecipeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FCC9137615028E1B5D289B11758B6E /* Pods-CocktailRecipeUITests-dummy.m */; };
+		C1D7EEC284D892822B6F6D427CBFFA30 /* Pods-CocktailRecipe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF860CE4D109418527C5F0147157EFA2 /* Pods-CocktailRecipe-dummy.m */; };
+		C9EDE26CD147B879E575E7E7A15D39AB /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CB4E7CB310FBFA5EAE4235D044300 /* XLPagerTabStrip-dummy.m */; };
+		CD97ACF3849AC43A8422A99954654398 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
+		D8BD079E2A053FB5A7976D9A09B3C7B5 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */; };
+		E06219523A446B1405BB2401F36A1542 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */; };
+		E1762171DF8E106CF4C5D4EAFD5948EC /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */; };
+		E22388124043ADA3B65B1B451A03BC27 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */; };
+		E946280F2D7C62C5FC5C39A89D767C78 /* Pods-CocktailRecipeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFBADD378A2DDFDAA6ABE264B2607E6 /* Pods-CocktailRecipeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0553C8C5727C4296D392F5BB69059EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		F7A2F56A1FB3CCB80E0040E7977AC180 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D09056B385C6845238E924C970E79039 /* FXPageControl.m */; };
+		F9584230F202A5FBFE751AFA9F12C35F /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */; };
+		FF5FD676BE4E4D22F8C9AE5D178E6618 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E0775F6BDF4BE2E12CB0A45C3271ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C4B5DA2D2BCC49EE90AD9D2681E1B06;
+			remoteInfo = XLPagerTabStrip;
+		};
+		8790ECC56EBB0C67E05B9E5B609EEAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2426AC870EFAAF73B6139B1E8A2B0EA0;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E6028C7DF52E390D09B82BADBF854E /* Pods-CocktailRecipe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocktailRecipe-acknowledgements.plist"; sourceTree = "<group>"; };
+		04016E8BBEADE6BC563F0893A76F375C /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		0826D49C66473AB373DBE189F0DDFDB7 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		09DFC03806C96A2DD346E1847E455E25 /* Pods_CocktailRecipeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailRecipeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6799188511DDCCC1886A68CBE4E20A /* Pods-CocktailRecipe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocktailRecipe-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		1DFBADD378A2DDFDAA6ABE264B2607E6 /* Pods-CocktailRecipeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocktailRecipeUITests-umbrella.h"; sourceTree = "<group>"; };
+		22EFCD788D3ECC600791F85450D31308 /* Pods-CocktailRecipeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocktailRecipeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		28BB4BA321744BC95E2E82349770067C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		42D93786C889F7165BF4F2226ED98A65 /* Pods-CocktailRecipe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocktailRecipe-frameworks.sh"; sourceTree = "<group>"; };
+		45905DB2F1553ADAA82F433157B02334 /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		480434962077C319D99DD5140D95A2D9 /* Pods-CocktailRecipeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocktailRecipeTests-umbrella.h"; sourceTree = "<group>"; };
+		499F3379BD7443D98442158AB721A09F /* Pods-CocktailRecipeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocktailRecipeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		5297932A09AD6880659006EE59DDE037 /* Pods_CocktailRecipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailRecipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D3B53AA90213033E6EEDAB84E26FB4 /* Pods-CocktailRecipeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocktailRecipeUITests-resources.sh"; sourceTree = "<group>"; };
+		55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		5630283AB525CBF27B3DE98E71A4C194 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6342696AB7309239E8FA5FCB49245B01 /* Pods-CocktailRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocktailRecipe.debug.xcconfig"; sourceTree = "<group>"; };
+		677C99DD0930AD90E8C6020174A06C90 /* Pods-CocktailRecipe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocktailRecipe-umbrella.h"; sourceTree = "<group>"; };
+		684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		692CB4E7CB310FBFA5EAE4235D044300 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		6CF160BD4D3B5312AB41DA99CC078A94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		81125439CD8226AF643F44884A6B0DBA /* Pods-CocktailRecipeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocktailRecipeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81FC6C26FBA390AEC6CE99CAC2ABDB12 /* Pods-CocktailRecipeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocktailRecipeUITests.modulemap"; sourceTree = "<group>"; };
+		8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		869BC36693499CF0B029E610C8F330D9 /* Pods-CocktailRecipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocktailRecipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8AEC8F7AFA8E64002C94C0BA991EAE4B /* Pods-CocktailRecipe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocktailRecipe.modulemap"; sourceTree = "<group>"; };
+		8F41C07C50FDB82B96BE7685411242CF /* Pods-CocktailRecipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocktailRecipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C291C7C53B648051DA94B62133BCA0 /* Pods_CocktailRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		A1FCC9137615028E1B5D289B11758B6E /* Pods-CocktailRecipeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocktailRecipeUITests-dummy.m"; sourceTree = "<group>"; };
+		A4D0306BB533753AB1F9644DD4626437 /* Pods-CocktailRecipeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocktailRecipeTests-frameworks.sh"; sourceTree = "<group>"; };
+		AAB57B52B985B374DF35F38DC68F2624 /* Pods-CocktailRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocktailRecipe.release.xcconfig"; sourceTree = "<group>"; };
+		AB7B291FEFC3D7F09E855B965014B41B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE70A82D7470A89B984DD186FE0DB294 /* Pods-CocktailRecipeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocktailRecipeTests.modulemap"; sourceTree = "<group>"; };
+		C06835091D9C0D5EE659EA18D493F5A0 /* Pods-CocktailRecipe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocktailRecipe-resources.sh"; sourceTree = "<group>"; };
+		C077AE92FE4A8548ACE72777C09DF700 /* Pods-CocktailRecipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocktailRecipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1EEAEC1E7AFA4014B2E6F5A4FE72B3C /* Pods-CocktailRecipeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocktailRecipeTests-resources.sh"; sourceTree = "<group>"; };
+		D09056B385C6845238E924C970E79039 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		D79E0D465B74BCFC6016E800F3FC0C72 /* Pods-CocktailRecipeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocktailRecipeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		EABC2DB9E3FE7715A4CA7D20DB88FB2E /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC26C913899E1C83E9369C810DF7CE8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF860CE4D109418527C5F0147157EFA2 /* Pods-CocktailRecipe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocktailRecipe-dummy.m"; sourceTree = "<group>"; };
+		F6B7D1043DE9AB689140E741851A788C /* Pods-CocktailRecipeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocktailRecipeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F852C3D2A7B9D8E488EB9F0EFCFF1A8B /* Pods-CocktailRecipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocktailRecipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB18A4B9A22B44F158B58E97C146C29A /* Pods-CocktailRecipeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocktailRecipeTests-dummy.m"; sourceTree = "<group>"; };
+		FCCEEFEBEB960CD33611E034571E6283 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CA362DF9DC8ABE852B540C60F3157C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2762AC5BF0D9D6781BC09A5BB1D5824B /* Foundation.framework in Frameworks */,
+				F0553C8C5727C4296D392F5BB69059EE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF6F1ADFF5C520A48DFBBD2301E0E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAA1499D1149B1CFE442C58CC51A10D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D04A27B85F3E18CDA1FE61D5DFD633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77424A678B11C11B814F716CAFA0EA48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFFEE9BD92F5F79AF3E8EB964E16296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3CE1CC3E7F57DA857F4941FEA72E4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F669619DCD9D54D6FAA492C92C4C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AFC43F0735E7BB026047EDB14228F39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF160BD4D3B5312AB41DA99CC078A94 /* Info.plist */,
+				45905DB2F1553ADAA82F433157B02334 /* ResourceBundle-XLPagerTabStrip-Info.plist */,
+				0826D49C66473AB373DBE189F0DDFDB7 /* XLPagerTabStrip.modulemap */,
+				3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */,
+				692CB4E7CB310FBFA5EAE4235D044300 /* XLPagerTabStrip-dummy.m */,
+				FCCEEFEBEB960CD33611E034571E6283 /* XLPagerTabStrip-prefix.pch */,
+				04016E8BBEADE6BC563F0893A76F375C /* XLPagerTabStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9AE3A07843C8C778ED30586199E24910 /* Pods */,
+				C079E5A7BDF76DD0605C85DBEE42E8CC /* Products */,
+				BC0706338CF209519911535539C65EB7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE3A07843C8C778ED30586199E24910 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CFC1CBA04529E35BB275B9E08F32A8D /* XLPagerTabStrip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CFC1CBA04529E35BB275B9E08F32A8D /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */,
+				3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */,
+				55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */,
+				E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */,
+				6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */,
+				85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */,
+				3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */,
+				4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */,
+				D09056B385C6845238E924C970E79039 /* FXPageControl.m */,
+				9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */,
+				6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */,
+				7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */,
+				0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */,
+				2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */,
+				684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */,
+				8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */,
+				B08F44A04415396C5E21D2DDAEDE5987 /* Resources */,
+				1AFC43F0735E7BB026047EDB14228F39 /* Support Files */,
+			);
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		A797E9F13C3224F892FBA531224D7E63 /* Pods-CocktailRecipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28BB4BA321744BC95E2E82349770067C /* Info.plist */,
+				81FC6C26FBA390AEC6CE99CAC2ABDB12 /* Pods-CocktailRecipeUITests.modulemap */,
+				81125439CD8226AF643F44884A6B0DBA /* Pods-CocktailRecipeUITests-acknowledgements.markdown */,
+				D79E0D465B74BCFC6016E800F3FC0C72 /* Pods-CocktailRecipeUITests-acknowledgements.plist */,
+				A1FCC9137615028E1B5D289B11758B6E /* Pods-CocktailRecipeUITests-dummy.m */,
+				22EFCD788D3ECC600791F85450D31308 /* Pods-CocktailRecipeUITests-frameworks.sh */,
+				52D3B53AA90213033E6EEDAB84E26FB4 /* Pods-CocktailRecipeUITests-resources.sh */,
+				1DFBADD378A2DDFDAA6ABE264B2607E6 /* Pods-CocktailRecipeUITests-umbrella.h */,
+				C077AE92FE4A8548ACE72777C09DF700 /* Pods-CocktailRecipeUITests.debug.xcconfig */,
+				869BC36693499CF0B029E610C8F330D9 /* Pods-CocktailRecipeUITests.release.xcconfig */,
+			);
+			name = "Pods-CocktailRecipeUITests";
+			path = "Target Support Files/Pods-CocktailRecipeUITests";
+			sourceTree = "<group>";
+		};
+		B08F44A04415396C5E21D2DDAEDE5987 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC0706338CF209519911535539C65EB7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E01E39B90A4FC8DCDD7795B14D1A8F /* Pods-CocktailRecipe */,
+				D1F2E7F6DBAE10E7D26ED24AF9A6D6CC /* Pods-CocktailRecipeTests */,
+				A797E9F13C3224F892FBA531224D7E63 /* Pods-CocktailRecipeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C079E5A7BDF76DD0605C85DBEE42E8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C291C7C53B648051DA94B62133BCA0 /* Pods_CocktailRecipe.framework */,
+				5297932A09AD6880659006EE59DDE037 /* Pods_CocktailRecipeTests.framework */,
+				09DFC03806C96A2DD346E1847E455E25 /* Pods_CocktailRecipeUITests.framework */,
+				EABC2DB9E3FE7715A4CA7D20DB88FB2E /* XLPagerTabStrip.bundle */,
+				5630283AB525CBF27B3DE98E71A4C194 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E01E39B90A4FC8DCDD7795B14D1A8F /* Pods-CocktailRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				AB7B291FEFC3D7F09E855B965014B41B /* Info.plist */,
+				8AEC8F7AFA8E64002C94C0BA991EAE4B /* Pods-CocktailRecipe.modulemap */,
+				0B6799188511DDCCC1886A68CBE4E20A /* Pods-CocktailRecipe-acknowledgements.markdown */,
+				00E6028C7DF52E390D09B82BADBF854E /* Pods-CocktailRecipe-acknowledgements.plist */,
+				EF860CE4D109418527C5F0147157EFA2 /* Pods-CocktailRecipe-dummy.m */,
+				42D93786C889F7165BF4F2226ED98A65 /* Pods-CocktailRecipe-frameworks.sh */,
+				C06835091D9C0D5EE659EA18D493F5A0 /* Pods-CocktailRecipe-resources.sh */,
+				677C99DD0930AD90E8C6020174A06C90 /* Pods-CocktailRecipe-umbrella.h */,
+				6342696AB7309239E8FA5FCB49245B01 /* Pods-CocktailRecipe.debug.xcconfig */,
+				AAB57B52B985B374DF35F38DC68F2624 /* Pods-CocktailRecipe.release.xcconfig */,
+			);
+			name = "Pods-CocktailRecipe";
+			path = "Target Support Files/Pods-CocktailRecipe";
+			sourceTree = "<group>";
+		};
+		D1F2E7F6DBAE10E7D26ED24AF9A6D6CC /* Pods-CocktailRecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC26C913899E1C83E9369C810DF7CE8C /* Info.plist */,
+				BE70A82D7470A89B984DD186FE0DB294 /* Pods-CocktailRecipeTests.modulemap */,
+				499F3379BD7443D98442158AB721A09F /* Pods-CocktailRecipeTests-acknowledgements.markdown */,
+				F6B7D1043DE9AB689140E741851A788C /* Pods-CocktailRecipeTests-acknowledgements.plist */,
+				FB18A4B9A22B44F158B58E97C146C29A /* Pods-CocktailRecipeTests-dummy.m */,
+				A4D0306BB533753AB1F9644DD4626437 /* Pods-CocktailRecipeTests-frameworks.sh */,
+				C1EEAEC1E7AFA4014B2E6F5A4FE72B3C /* Pods-CocktailRecipeTests-resources.sh */,
+				480434962077C319D99DD5140D95A2D9 /* Pods-CocktailRecipeTests-umbrella.h */,
+				F852C3D2A7B9D8E488EB9F0EFCFF1A8B /* Pods-CocktailRecipeTests.debug.xcconfig */,
+				8F41C07C50FDB82B96BE7685411242CF /* Pods-CocktailRecipeTests.release.xcconfig */,
+			);
+			name = "Pods-CocktailRecipeTests";
+			path = "Target Support Files/Pods-CocktailRecipeTests";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35DA7FA5F43E3BABA1543CE274F2C5E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5264B9FFBCDA74C78B163A1BF40AB922 /* Pods-CocktailRecipeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC268891175A4F7DC83574B26B6E790 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34848A3A732EED6F8992ECF239ECBA4E /* FXPageControl.h in Headers */,
+				440BBAB81123253B7496323B51D6A59A /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2709B86159C84F0AB9E4C076F0CFA8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E946280F2D7C62C5FC5C39A89D767C78 /* Pods-CocktailRecipeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD98C2234E5ADDD66CCC8D5EF9364E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386B362A4DFF3784FA9F3C084CB0DEA1 /* Pods-CocktailRecipe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0037F537D79718F191839247D9EA59E1 /* Pods-CocktailRecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFC4D6A875B4ABF9172ED6B839FF733 /* Build configuration list for PBXNativeTarget "Pods-CocktailRecipeTests" */;
+			buildPhases = (
+				9404BC41C8A521BA3953BB49182B1768 /* Sources */,
+				A3D04A27B85F3E18CDA1FE61D5DFD633 /* Frameworks */,
+				35DA7FA5F43E3BABA1543CE274F2C5E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CocktailRecipeTests";
+			productName = "Pods-CocktailRecipeTests";
+			productReference = 5297932A09AD6880659006EE59DDE037 /* Pods_CocktailRecipeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2426AC870EFAAF73B6139B1E8A2B0EA0 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC57702AC1CA8A93D17D414026E3373C /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				E1DDCC6EC8CD39E76E910AE609E65271 /* Sources */,
+				E0F669619DCD9D54D6FAA492C92C4C7C /* Frameworks */,
+				8CAEE1FBD2DC3B3B2CE9194D4072CE8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = EABC2DB9E3FE7715A4CA7D20DB88FB2E /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5E668DE1FDC645AAE93D2F45F5E84829 /* Pods-CocktailRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F452EC0030384279D5A8A111AF853EC4 /* Build configuration list for PBXNativeTarget "Pods-CocktailRecipe" */;
+			buildPhases = (
+				1C54B87D698CDD047B4D6380E2A9FD0F /* Sources */,
+				AAFFEE9BD92F5F79AF3E8EB964E16296 /* Frameworks */,
+				FBD98C2234E5ADDD66CCC8D5EF9364E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				548C5DA955BF54BE503A2F12B4C3C000 /* PBXTargetDependency */,
+			);
+			name = "Pods-CocktailRecipe";
+			productName = "Pods-CocktailRecipe";
+			productReference = 99C291C7C53B648051DA94B62133BCA0 /* Pods_CocktailRecipe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C4B5DA2D2BCC49EE90AD9D2681E1B06 /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFE1DEA403E8032CC8646BB4E363716 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				4F78E22DD377AB3DE5B8344B55024AAF /* Sources */,
+				30CA362DF9DC8ABE852B540C60F3157C /* Frameworks */,
+				A550162C60C4A12A2F2FE42321B07F0D /* Resources */,
+				3DC268891175A4F7DC83574B26B6E790 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A547616F6249E44CCB87EC93D9D67EF /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = 5630283AB525CBF27B3DE98E71A4C194 /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A85459CA3AB889D0AEF22B192CD9A452 /* Pods-CocktailRecipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 771B739A390C4ADD741C0D5D20073F81 /* Build configuration list for PBXNativeTarget "Pods-CocktailRecipeUITests" */;
+			buildPhases = (
+				3BDBDCD744151F8370092DAE70D7EF99 /* Sources */,
+				8CF6F1ADFF5C520A48DFBBD2301E0E03 /* Frameworks */,
+				F2709B86159C84F0AB9E4C076F0CFA8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CocktailRecipeUITests";
+			productName = "Pods-CocktailRecipeUITests";
+			productReference = 09DFC03806C96A2DD346E1847E455E25 /* Pods_CocktailRecipeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					5E668DE1FDC645AAE93D2F45F5E84829 = {
+						LastSwiftMigration = 0820;
+					};
+					7C4B5DA2D2BCC49EE90AD9D2681E1B06 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C079E5A7BDF76DD0605C85DBEE42E8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E668DE1FDC645AAE93D2F45F5E84829 /* Pods-CocktailRecipe */,
+				0037F537D79718F191839247D9EA59E1 /* Pods-CocktailRecipeTests */,
+				A85459CA3AB889D0AEF22B192CD9A452 /* Pods-CocktailRecipeUITests */,
+				7C4B5DA2D2BCC49EE90AD9D2681E1B06 /* XLPagerTabStrip */,
+				2426AC870EFAAF73B6139B1E8A2B0EA0 /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CAEE1FBD2DC3B3B2CE9194D4072CE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD97ACF3849AC43A8422A99954654398 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A550162C60C4A12A2F2FE42321B07F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4E07BEDF6C04696DE7C02FF2A85D33 /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C54B87D698CDD047B4D6380E2A9FD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D7EEC284D892822B6F6D427CBFFA30 /* Pods-CocktailRecipe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDBDCD744151F8370092DAE70D7EF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D253F2EEFA55994FF6E297D7C824E3 /* Pods-CocktailRecipeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F78E22DD377AB3DE5B8344B55024AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22388124043ADA3B65B1B451A03BC27 /* BarPagerTabStripViewController.swift in Sources */,
+				FF5FD676BE4E4D22F8C9AE5D178E6618 /* BarView.swift in Sources */,
+				26BD3FC8F84D25FC50D5F1DF0282773E /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				5766F54AD50E933D51D9256698806B69 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				610446ABF3CFB18BDC361606438E5337 /* ButtonBarView.swift in Sources */,
+				E06219523A446B1405BB2401F36A1542 /* ButtonBarViewCell.swift in Sources */,
+				8B1418AA55D58F4F241FBD9FD7F6CCB0 /* ButtonCell.xib in Sources */,
+				F7A2F56A1FB3CCB80E0040E7977AC180 /* FXPageControl.m in Sources */,
+				4865F9797645106F09652F9FAA2259D1 /* IndicatorInfo.swift in Sources */,
+				B22C7DB16657F9D2B76627824C108D0C /* PagerTabStripBehaviour.swift in Sources */,
+				F9584230F202A5FBFE751AFA9F12C35F /* PagerTabStripError.swift in Sources */,
+				D8BD079E2A053FB5A7976D9A09B3C7B5 /* PagerTabStripViewController.swift in Sources */,
+				18DD1D36015DE155F2BBC977C1A8B502 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				5BBFD573EC4805600DBCBAE0D15C7B64 /* SwipeDirection.swift in Sources */,
+				E1762171DF8E106CF4C5D4EAFD5948EC /* TwitterPagerTabStripViewController.swift in Sources */,
+				C9EDE26CD147B879E575E7E7A15D39AB /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9404BC41C8A521BA3953BB49182B1768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D73D31A5AF1274862AEC2186710998 /* Pods-CocktailRecipeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DDCC6EC8CD39E76E910AE609E65271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A547616F6249E44CCB87EC93D9D67EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = 2426AC870EFAAF73B6139B1E8A2B0EA0 /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 8790ECC56EBB0C67E05B9E5B609EEAA3 /* PBXContainerItemProxy */;
+		};
+		548C5DA955BF54BE503A2F12B4C3C000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = 7C4B5DA2D2BCC49EE90AD9D2681E1B06 /* XLPagerTabStrip */;
+			targetProxy = 4E0775F6BDF4BE2E12CB0A45C3271ADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1FEB9E40ACD0F8CB6C5DE83E217E33AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		27B92547D848248C29EACD9BC19567AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6342696AB7309239E8FA5FCB49245B01 /* Pods-CocktailRecipe.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocktailRecipe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocktailRecipe/Pods-CocktailRecipe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocktailRecipe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		467392137ED9E2EA5B10E260457C4C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C077AE92FE4A8548ACE72777C09DF700 /* Pods-CocktailRecipeUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocktailRecipeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocktailRecipeUITests/Pods-CocktailRecipeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocktailRecipeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C6667D3EA614CD531C0941093FF481C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB57B52B985B374DF35F38DC68F2624 /* Pods-CocktailRecipe.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocktailRecipe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocktailRecipe/Pods-CocktailRecipe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocktailRecipe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EAA18915FD083F09D4C230BED4ABA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71F2FC84719E34337A571C8CEDDD40C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		984E6CF0FC7BD28709104492AA4DECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 869BC36693499CF0B029E610C8F330D9 /* Pods-CocktailRecipeUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocktailRecipeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocktailRecipeUITests/Pods-CocktailRecipeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocktailRecipeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AD8831C80BDD399A499668B443A7E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F852C3D2A7B9D8E488EB9F0EFCFF1A8B /* Pods-CocktailRecipeTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocktailRecipeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocktailRecipeTests/Pods-CocktailRecipeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocktailRecipeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3D756A9FCF84F195D1DEAB83935F9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F41C07C50FDB82B96BE7685411242CF /* Pods-CocktailRecipeTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocktailRecipeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocktailRecipeTests/Pods-CocktailRecipeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocktailRecipeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3BC0CD98B32120BEB51146A9AA6DED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BFC4D6A875B4ABF9172ED6B839FF733 /* Build configuration list for PBXNativeTarget "Pods-CocktailRecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD8831C80BDD399A499668B443A7E73 /* Debug */,
+				E3D756A9FCF84F195D1DEAB83935F9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		771B739A390C4ADD741C0D5D20073F81 /* Build configuration list for PBXNativeTarget "Pods-CocktailRecipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467392137ED9E2EA5B10E260457C4C08 /* Debug */,
+				984E6CF0FC7BD28709104492AA4DECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFE1DEA403E8032CC8646BB4E363716 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EAA18915FD083F09D4C230BED4ABA06 /* Debug */,
+				F3BC0CD98B32120BEB51146A9AA6DED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC57702AC1CA8A93D17D414026E3373C /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEB9E40ACD0F8CB6C5DE83E217E33AA /* Debug */,
+				71F2FC84719E34337A571C8CEDDD40C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F452EC0030384279D5A8A111AF853EC4 /* Build configuration list for PBXNativeTarget "Pods-CocktailRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B92547D848248C29EACD9BC19567AD /* Debug */,
+				6C6667D3EA614CD531C0941093FF481C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

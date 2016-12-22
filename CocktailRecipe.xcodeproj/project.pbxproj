@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ADED657561B87A6EEC66E0D /* Pods_CocktailRecipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32B821A9F8CA78BAC2C3A1D /* Pods_CocktailRecipeTests.framework */; };
+		51A43DF30389B0D8DCB38979 /* Pods_CocktailRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FD8B20C50E6462E0A6FFD3 /* Pods_CocktailRecipe.framework */; };
+		69070BCB1D32408300EDE060 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69070BCA1D32408300EDE060 /* CustomTabBarController.swift */; };
+		6959C2811D2FF56200BE8FC2 /* TequilaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959C2801D2FF56200BE8FC2 /* TequilaViewController.swift */; };
+		6959C2831D2FF57700BE8FC2 /* RumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959C2821D2FF57700BE8FC2 /* RumViewController.swift */; };
+		6959C2851D2FF58700BE8FC2 /* WhiskeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959C2841D2FF58700BE8FC2 /* WhiskeyViewController.swift */; };
+		6959C2871D2FF5FF00BE8FC2 /* LiquereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6959C2861D2FF5FF00BE8FC2 /* LiquereViewController.swift */; };
+		6982DACC1E0BB94500998800 /* Gin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6982DACB1E0BB94500998800 /* Gin.storyboard */; };
+		6982DACF1E0BBC0F00998800 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6982DACD1E0BBC0F00998800 /* CustomTableCell.swift */; };
+		6982DAD01E0BBC0F00998800 /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6982DACE1E0BBC0F00998800 /* CustomTableCell.xib */; };
+		69A604831D2FCA2800AF67DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A604821D2FCA2800AF67DD /* AppDelegate.swift */; };
+		69A604851D2FCA2800AF67DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A604841D2FCA2800AF67DD /* ViewController.swift */; };
+		69A604881D2FCA2800AF67DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A604861D2FCA2800AF67DD /* Main.storyboard */; };
+		69A6048A1D2FCA2800AF67DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A604891D2FCA2800AF67DD /* Assets.xcassets */; };
+		69A6048D1D2FCA2800AF67DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A6048B1D2FCA2800AF67DD /* LaunchScreen.storyboard */; };
+		69A604981D2FCA2800AF67DD /* CocktailRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A604971D2FCA2800AF67DD /* CocktailRecipeTests.swift */; };
+		69A604A31D2FCA2800AF67DD /* CocktailRecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A604A21D2FCA2800AF67DD /* CocktailRecipeUITests.swift */; };
+		69C8C3D11D2FCD8200A34A3A /* XLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C8C3D01D2FCD8200A34A3A /* XLPagerTabStrip.framework */; };
+		69C8C3D31D2FCEAE00A34A3A /* GinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C8C3D21D2FCEAE00A34A3A /* GinViewController.swift */; };
+		69C8C3D51D2FCF3300A34A3A /* VodkaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C8C3D41D2FCF3300A34A3A /* VodkaViewController.swift */; };
+		D5DA8D6A398738799DE0B7AD /* Pods_CocktailRecipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59162EC6859B020D768A2D21 /* Pods_CocktailRecipeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69A604941D2FCA2800AF67DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A604771D2FCA2800AF67DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A6047E1D2FCA2800AF67DD;
+			remoteInfo = CocktailRecipe;
+		};
+		69A6049F1D2FCA2800AF67DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A604771D2FCA2800AF67DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A6047E1D2FCA2800AF67DD;
+			remoteInfo = CocktailRecipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47FF08080B590088B72D1C96 /* Pods-CocktailRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipe/Pods-CocktailRecipe.debug.xcconfig"; sourceTree = "<group>"; };
+		50C69C5FD78DEA57B5BB1C79 /* Pods-CocktailRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipe.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipe/Pods-CocktailRecipe.release.xcconfig"; sourceTree = "<group>"; };
+		59162EC6859B020D768A2D21 /* Pods_CocktailRecipeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailRecipeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69070BCA1D32408300EDE060 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		6959C2801D2FF56200BE8FC2 /* TequilaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TequilaViewController.swift; sourceTree = "<group>"; };
+		6959C2821D2FF57700BE8FC2 /* RumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RumViewController.swift; sourceTree = "<group>"; };
+		6959C2841D2FF58700BE8FC2 /* WhiskeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiskeyViewController.swift; sourceTree = "<group>"; };
+		6959C2861D2FF5FF00BE8FC2 /* LiquereViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquereViewController.swift; sourceTree = "<group>"; };
+		6982DACB1E0BB94500998800 /* Gin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gin.storyboard; sourceTree = "<group>"; };
+		6982DACD1E0BBC0F00998800 /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		6982DACE1E0BBC0F00998800 /* CustomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
+		69A6047F1D2FCA2800AF67DD /* CocktailRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A604821D2FCA2800AF67DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69A604841D2FCA2800AF67DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69A604871D2FCA2800AF67DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69A604891D2FCA2800AF67DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69A6048C1D2FCA2800AF67DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69A6048E1D2FCA2800AF67DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A604931D2FCA2800AF67DD /* CocktailRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocktailRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A604971D2FCA2800AF67DD /* CocktailRecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailRecipeTests.swift; sourceTree = "<group>"; };
+		69A604991D2FCA2800AF67DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A6049E1D2FCA2800AF67DD /* CocktailRecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocktailRecipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A604A21D2FCA2800AF67DD /* CocktailRecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailRecipeUITests.swift; sourceTree = "<group>"; };
+		69A604A41D2FCA2800AF67DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C8C3D01D2FCD8200A34A3A /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XLPagerTabStrip.framework; path = "../../Library/Developer/Xcode/DerivedData/CocktailRecipe-ffeippmgjemuiqarlaebqhowjfrl/Build/Products/Debug-iphonesimulator/XLPagerTabStrip/XLPagerTabStrip.framework"; sourceTree = "<group>"; };
+		69C8C3D21D2FCEAE00A34A3A /* GinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GinViewController.swift; sourceTree = "<group>"; };
+		69C8C3D41D2FCF3300A34A3A /* VodkaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VodkaViewController.swift; sourceTree = "<group>"; };
+		727D652932CAD511C4871B9B /* Pods-CocktailRecipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipeTests/Pods-CocktailRecipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		754CEEA17508CA83F5607DC5 /* Pods-CocktailRecipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipeUITests/Pods-CocktailRecipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3FD8B20C50E6462E0A6FFD3 /* Pods_CocktailRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8E6986D89A806295985C2B /* Pods-CocktailRecipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipeUITests/Pods-CocktailRecipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1A0982EECCEDFA3979479D1 /* Pods-CocktailRecipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipeTests/Pods-CocktailRecipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E32B821A9F8CA78BAC2C3A1D /* Pods_CocktailRecipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailRecipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A6047C1D2FCA2800AF67DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C8C3D11D2FCD8200A34A3A /* XLPagerTabStrip.framework in Frameworks */,
+				51A43DF30389B0D8DCB38979 /* Pods_CocktailRecipe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A604901D2FCA2800AF67DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADED657561B87A6EEC66E0D /* Pods_CocktailRecipeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6049B1D2FCA2800AF67DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DA8D6A398738799DE0B7AD /* Pods_CocktailRecipeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69A604761D2FCA2800AF67DD = {
+			isa = PBXGroup;
+			children = (
+				69A604811D2FCA2800AF67DD /* CocktailRecipe */,
+				69A604961D2FCA2800AF67DD /* CocktailRecipeTests */,
+				69A604A11D2FCA2800AF67DD /* CocktailRecipeUITests */,
+				69A604801D2FCA2800AF67DD /* Products */,
+				A46A5925E5E09AD4901394AA /* Pods */,
+				C4DE35964C3ED148FEABAE35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69A604801D2FCA2800AF67DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A6047F1D2FCA2800AF67DD /* CocktailRecipe.app */,
+				69A604931D2FCA2800AF67DD /* CocktailRecipeTests.xctest */,
+				69A6049E1D2FCA2800AF67DD /* CocktailRecipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69A604811D2FCA2800AF67DD /* CocktailRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				69C8C3D61D2FCF5300A34A3A /* baseView */,
+				69A604821D2FCA2800AF67DD /* AppDelegate.swift */,
+				69A604841D2FCA2800AF67DD /* ViewController.swift */,
+				69070BCA1D32408300EDE060 /* CustomTabBarController.swift */,
+				6982DACB1E0BB94500998800 /* Gin.storyboard */,
+				6982DACD1E0BBC0F00998800 /* CustomTableCell.swift */,
+				6982DACE1E0BBC0F00998800 /* CustomTableCell.xib */,
+				69A604861D2FCA2800AF67DD /* Main.storyboard */,
+				69A604891D2FCA2800AF67DD /* Assets.xcassets */,
+				69A6048B1D2FCA2800AF67DD /* LaunchScreen.storyboard */,
+				69A6048E1D2FCA2800AF67DD /* Info.plist */,
+			);
+			path = CocktailRecipe;
+			sourceTree = "<group>";
+		};
+		69A604961D2FCA2800AF67DD /* CocktailRecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				69A604971D2FCA2800AF67DD /* CocktailRecipeTests.swift */,
+				69A604991D2FCA2800AF67DD /* Info.plist */,
+			);
+			path = CocktailRecipeTests;
+			sourceTree = "<group>";
+		};
+		69A604A11D2FCA2800AF67DD /* CocktailRecipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69A604A21D2FCA2800AF67DD /* CocktailRecipeUITests.swift */,
+				69A604A41D2FCA2800AF67DD /* Info.plist */,
+			);
+			path = CocktailRecipeUITests;
+			sourceTree = "<group>";
+		};
+		69C8C3D61D2FCF5300A34A3A /* baseView */ = {
+			isa = PBXGroup;
+			children = (
+				69C8C3D21D2FCEAE00A34A3A /* GinViewController.swift */,
+				69C8C3D41D2FCF3300A34A3A /* VodkaViewController.swift */,
+				6959C2801D2FF56200BE8FC2 /* TequilaViewController.swift */,
+				6959C2861D2FF5FF00BE8FC2 /* LiquereViewController.swift */,
+				6959C2821D2FF57700BE8FC2 /* RumViewController.swift */,
+				6959C2841D2FF58700BE8FC2 /* WhiskeyViewController.swift */,
+			);
+			name = baseView;
+			sourceTree = "<group>";
+		};
+		A46A5925E5E09AD4901394AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47FF08080B590088B72D1C96 /* Pods-CocktailRecipe.debug.xcconfig */,
+				50C69C5FD78DEA57B5BB1C79 /* Pods-CocktailRecipe.release.xcconfig */,
+				727D652932CAD511C4871B9B /* Pods-CocktailRecipeTests.debug.xcconfig */,
+				E1A0982EECCEDFA3979479D1 /* Pods-CocktailRecipeTests.release.xcconfig */,
+				754CEEA17508CA83F5607DC5 /* Pods-CocktailRecipeUITests.debug.xcconfig */,
+				DC8E6986D89A806295985C2B /* Pods-CocktailRecipeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4DE35964C3ED148FEABAE35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C8C3D01D2FCD8200A34A3A /* XLPagerTabStrip.framework */,
+				A3FD8B20C50E6462E0A6FFD3 /* Pods_CocktailRecipe.framework */,
+				E32B821A9F8CA78BAC2C3A1D /* Pods_CocktailRecipeTests.framework */,
+				59162EC6859B020D768A2D21 /* Pods_CocktailRecipeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69A6047E1D2FCA2800AF67DD /* CocktailRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A604A71D2FCA2800AF67DD /* Build configuration list for PBXNativeTarget "CocktailRecipe" */;
+			buildPhases = (
+				5E22E1A4598EBF52985DEB45 /* [CP] Check Pods Manifest.lock */,
+				69A6047B1D2FCA2800AF67DD /* Sources */,
+				69A6047C1D2FCA2800AF67DD /* Frameworks */,
+				69A6047D1D2FCA2800AF67DD /* Resources */,
+				20FEB1D55C301EFFDA38F0A1 /* [CP] Embed Pods Frameworks */,
+				C2855CAE1DFFD5ABA14A66D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocktailRecipe;
+			productName = CocktailRecipe;
+			productReference = 69A6047F1D2FCA2800AF67DD /* CocktailRecipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69A604921D2FCA2800AF67DD /* CocktailRecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A604AA1D2FCA2800AF67DD /* Build configuration list for PBXNativeTarget "CocktailRecipeTests" */;
+			buildPhases = (
+				F23A70D027AACDF1992D54DE /* [CP] Check Pods Manifest.lock */,
+				69A6048F1D2FCA2800AF67DD /* Sources */,
+				69A604901D2FCA2800AF67DD /* Frameworks */,
+				69A604911D2FCA2800AF67DD /* Resources */,
+				2A0F9B73C929C5D438C43D0F /* [CP] Embed Pods Frameworks */,
+				1765869D2D8A9817405532FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A604951D2FCA2800AF67DD /* PBXTargetDependency */,
+			);
+			name = CocktailRecipeTests;
+			productName = CocktailRecipeTests;
+			productReference = 69A604931D2FCA2800AF67DD /* CocktailRecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69A6049D1D2FCA2800AF67DD /* CocktailRecipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A604AD1D2FCA2800AF67DD /* Build configuration list for PBXNativeTarget "CocktailRecipeUITests" */;
+			buildPhases = (
+				C6AA2CF2D3B2A5D318DDEB9E /* [CP] Check Pods Manifest.lock */,
+				69A6049A1D2FCA2800AF67DD /* Sources */,
+				69A6049B1D2FCA2800AF67DD /* Frameworks */,
+				69A6049C1D2FCA2800AF67DD /* Resources */,
+				B8DA78BC914A67112FFDB506 /* [CP] Copy Pods Resources */,
+				B5A9624B6B0AD05AA6319241 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A604A01D2FCA2800AF67DD /* PBXTargetDependency */,
+			);
+			name = CocktailRecipeUITests;
+			productName = CocktailRecipeUITests;
+			productReference = 69A6049E1D2FCA2800AF67DD /* CocktailRecipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69A604771D2FCA2800AF67DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Marcy;
+				TargetAttributes = {
+					69A6047E1D2FCA2800AF67DD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N2NJ9HWB52;
+						LastSwiftMigration = 0820;
+					};
+					69A604921D2FCA2800AF67DD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N2NJ9HWB52;
+						LastSwiftMigration = 0820;
+						TestTargetID = 69A6047E1D2FCA2800AF67DD;
+					};
+					69A6049D1D2FCA2800AF67DD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N2NJ9HWB52;
+						LastSwiftMigration = 0820;
+						TestTargetID = 69A6047E1D2FCA2800AF67DD;
+					};
+				};
+			};
+			buildConfigurationList = 69A6047A1D2FCA2800AF67DD /* Build configuration list for PBXProject "CocktailRecipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69A604761D2FCA2800AF67DD;
+			productRefGroup = 69A604801D2FCA2800AF67DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A6047E1D2FCA2800AF67DD /* CocktailRecipe */,
+				69A604921D2FCA2800AF67DD /* CocktailRecipeTests */,
+				69A6049D1D2FCA2800AF67DD /* CocktailRecipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69A6047D1D2FCA2800AF67DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A6048D1D2FCA2800AF67DD /* LaunchScreen.storyboard in Resources */,
+				69A6048A1D2FCA2800AF67DD /* Assets.xcassets in Resources */,
+				6982DAD01E0BBC0F00998800 /* CustomTableCell.xib in Resources */,
+				69A604881D2FCA2800AF67DD /* Main.storyboard in Resources */,
+				6982DACC1E0BB94500998800 /* Gin.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A604911D2FCA2800AF67DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6049C1D2FCA2800AF67DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1765869D2D8A9817405532FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocktailRecipeTests/Pods-CocktailRecipeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20FEB1D55C301EFFDA38F0A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocktailRecipe/Pods-CocktailRecipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A0F9B73C929C5D438C43D0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocktailRecipeTests/Pods-CocktailRecipeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E22E1A4598EBF52985DEB45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5A9624B6B0AD05AA6319241 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocktailRecipeUITests/Pods-CocktailRecipeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DA78BC914A67112FFDB506 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocktailRecipeUITests/Pods-CocktailRecipeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2855CAE1DFFD5ABA14A66D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocktailRecipe/Pods-CocktailRecipe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6AA2CF2D3B2A5D318DDEB9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F23A70D027AACDF1992D54DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A6047B1D2FCA2800AF67DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C8C3D51D2FCF3300A34A3A /* VodkaViewController.swift in Sources */,
+				6982DACF1E0BBC0F00998800 /* CustomTableCell.swift in Sources */,
+				6959C2831D2FF57700BE8FC2 /* RumViewController.swift in Sources */,
+				6959C2811D2FF56200BE8FC2 /* TequilaViewController.swift in Sources */,
+				6959C2851D2FF58700BE8FC2 /* WhiskeyViewController.swift in Sources */,
+				6959C2871D2FF5FF00BE8FC2 /* LiquereViewController.swift in Sources */,
+				69A604851D2FCA2800AF67DD /* ViewController.swift in Sources */,
+				69A604831D2FCA2800AF67DD /* AppDelegate.swift in Sources */,
+				69C8C3D31D2FCEAE00A34A3A /* GinViewController.swift in Sources */,
+				69070BCB1D32408300EDE060 /* CustomTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6048F1D2FCA2800AF67DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A604981D2FCA2800AF67DD /* CocktailRecipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6049A1D2FCA2800AF67DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A604A31D2FCA2800AF67DD /* CocktailRecipeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69A604951D2FCA2800AF67DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A6047E1D2FCA2800AF67DD /* CocktailRecipe */;
+			targetProxy = 69A604941D2FCA2800AF67DD /* PBXContainerItemProxy */;
+		};
+		69A604A01D2FCA2800AF67DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A6047E1D2FCA2800AF67DD /* CocktailRecipe */;
+			targetProxy = 69A6049F1D2FCA2800AF67DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69A604861D2FCA2800AF67DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A604871D2FCA2800AF67DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69A6048B1D2FCA2800AF67DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A6048C1D2FCA2800AF67DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69A604A51D2FCA2800AF67DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69A604A61D2FCA2800AF67DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69A604A81D2FCA2800AF67DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47FF08080B590088B72D1C96 /* Pods-CocktailRecipe.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CocktailRecipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcy.CocktailRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69A604A91D2FCA2800AF67DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C69C5FD78DEA57B5BB1C79 /* Pods-CocktailRecipe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CocktailRecipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcy.CocktailRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		69A604AB1D2FCA2800AF67DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727D652932CAD511C4871B9B /* Pods-CocktailRecipeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CocktailRecipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcy.CocktailRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocktailRecipe.app/CocktailRecipe";
+			};
+			name = Debug;
+		};
+		69A604AC1D2FCA2800AF67DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A0982EECCEDFA3979479D1 /* Pods-CocktailRecipeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CocktailRecipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcy.CocktailRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocktailRecipe.app/CocktailRecipe";
+			};
+			name = Release;
+		};
+		69A604AE1D2FCA2800AF67DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754CEEA17508CA83F5607DC5 /* Pods-CocktailRecipeUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CocktailRecipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcy.CocktailRecipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CocktailRecipe;
+			};
+			name = Debug;
+		};
+		69A604AF1D2FCA2800AF67DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8E6986D89A806295985C2B /* Pods-CocktailRecipeUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CocktailRecipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcy.CocktailRecipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CocktailRecipe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A6047A1D2FCA2800AF67DD /* Build configuration list for PBXProject "CocktailRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A604A51D2FCA2800AF67DD /* Debug */,
+				69A604A61D2FCA2800AF67DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A604A71D2FCA2800AF67DD /* Build configuration list for PBXNativeTarget "CocktailRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A604A81D2FCA2800AF67DD /* Debug */,
+				69A604A91D2FCA2800AF67DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A604AA1D2FCA2800AF67DD /* Build configuration list for PBXNativeTarget "CocktailRecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A604AB1D2FCA2800AF67DD /* Debug */,
+				69A604AC1D2FCA2800AF67DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A604AD1D2FCA2800AF67DD /* Build configuration list for PBXNativeTarget "CocktailRecipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A604AE1D2FCA2800AF67DD /* Debug */,
+				69A604AF1D2FCA2800AF67DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69A604771D2FCA2800AF67DD /* Project object */;
+}
