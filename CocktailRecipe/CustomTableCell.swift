@@ -10,6 +10,9 @@ import UIKit
 
 class CustomTableCell: UITableViewCell {
 
+    @IBOutlet weak var Name: UILabel!
+    @IBOutlet weak var Descript: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +24,7 @@ class CustomTableCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-}
+    func setCell(cocktail :Cocktail) {
+        self.Name.text = cocktail.name
+        self.Descript.text = cocktail.descript
+    }}

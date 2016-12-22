@@ -9,9 +9,9 @@
 import Foundation
 import XLPagerTabStrip
 
-class ViewController: ButtonBarPagerTabStripViewController, UISearchBarDelegate{
+class HomeViewController: ButtonBarPagerTabStripViewController, UISearchBarDelegate{
     
-    @IBOutlet weak var shadowView: UIView!
+//    @IBOutlet weak var shadowView: UIView!
     
     var searchBar: UISearchBar!
     
@@ -73,7 +73,7 @@ class ViewController: ButtonBarPagerTabStripViewController, UISearchBarDelegate{
     // キーボードが表示を監視
     override func viewWillAppear(_ animated: Bool) {
         let notificationCenter = NotificationCenter.default
-        notificationCenter.addObserver(self, selector: #selector(ViewController.handleKeyboardWillShowNotification(_:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(HomeViewController.handleKeyboardWillShowNotification(_:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
     }
     
     // キーボードが表示されるときにキャンセルボタンを有効に
