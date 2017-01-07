@@ -7,6 +7,10 @@ target 'CocktailRecipe' do
 pod 'XLPagerTabStrip', :git => 'https://github.com/KelvinJin/XLPagerTabStrip', :branch => 'swift3_alex'
 end
 
+pod 'Alamofire'
+pod 'Curry'
+pod 'Argo'
+
 target 'CocktailRecipeTests' do
 # Pods for testing
 end

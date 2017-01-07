@@ -8,12 +8,17 @@
 
 import Foundation
 
-class Cocktail : NSObject{
+//class Cocktail : NSObject{
+//    var name: String
+//    var descript: String
+//    
+//    init(name: String, descript: String){
+//        self.name = name
+//        self.descript = descript
+//    }
+//}
+
+struct Cocktail {
     var name: String
     var descript: String
-    
-    init(name: String, descript: String){
-        self.name = name
-        self.descript = descript
-    }
 }

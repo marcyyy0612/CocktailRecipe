@@ -1,7 +1,15 @@
 PODS:
+  - Alamofire (4.2.0)
+  - Argo (4.1.1):
+    - Runes (>= 4.0.0)
+  - Curry (3.0.0)
+  - Runes (4.0.1)
   - XLPagerTabStrip (5.0.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - Argo
+  - Curry
   - XLPagerTabStrip (from `https://github.com/KelvinJin/XLPagerTabStrip`, branch `swift3_alex`)
 
 EXTERNAL SOURCES:
@@ -15,8 +23,12 @@ CHECKOUT OPTIONS:
     :git: https://github.com/KelvinJin/XLPagerTabStrip
 
 SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Argo: 014ac072f97462bc1a9b83d302edb351488a532f
+  Curry: eb3d2c75aec678b3cc7fb2729d2ad6dd121531d1
+  Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
   XLPagerTabStrip: 87b8b705f9a7178e76a063ffaa2d70045944a965
 
-PODFILE CHECKSUM: 1c8b4fdf4be01334474e1f2b68b96805da60d92a
+PODFILE CHECKSUM: 18668263dfe5f875b6d4cb55629b592fc539bce0
 
 COCOAPODS: 1.1.1
