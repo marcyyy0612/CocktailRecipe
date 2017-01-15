@@ -25,6 +25,7 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
 
         Alamofire.request("https://script.google.com/macros/s/AKfycbz54ZkXMpyZXd7gJG9THhBIatqiZyHQQNdPH3Ae8MkYCKbcdFc/exec").responseJSON { response in
             var result = JSON(response.result.value)
+            print(result)
         }
         
         self.setupFriends()
