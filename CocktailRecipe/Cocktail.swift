@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Unbox
 
 //class Cocktail : NSObject{
 //    var name: String
@@ -18,7 +19,7 @@ import Foundation
 //    }
 //}
 
-struct Cocktail {
+struct Cocktail{
     var name: String
     var descript: String
 }

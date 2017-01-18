@@ -9,8 +9,7 @@
 import Foundation
 import XLPagerTabStrip
 import Alamofire
-import Argo
-import Curry
+import Unbox
 
 class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDataSource, UITableViewDelegate{
     public func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
@@ -24,7 +23,7 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
         super.viewDidLoad()
 
         Alamofire.request("https://script.google.com/macros/s/AKfycbz54ZkXMpyZXd7gJG9THhBIatqiZyHQQNdPH3Ae8MkYCKbcdFc/exec").responseJSON { response in
-            var result = JSON(response.result.value)
+            var result = response.result.value
             print(result)
         }
         

@@ -85,13 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS9.3/Alamofire.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Argo-iOS9.3/Argo.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Curry-iOS9.3/Curry.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Runes-iOS9.3/Runes.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Unbox-iOS9.3/Unbox.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS9.3/Alamofire.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Argo-iOS9.3/Argo.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Curry-iOS9.3/Curry.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Runes-iOS9.3/Runes.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Unbox-iOS9.3/Unbox.framework"
 fi
