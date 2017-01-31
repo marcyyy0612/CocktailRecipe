@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NNL-CV-RzC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tequila View Controller-->
+        <scene sceneID="rsn-nr-XyE">
+            <objects>
+                <viewController id="NNL-CV-RzC" customClass="TequilaViewController" customModule="CocktailRecipe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QFC-ZD-HtJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="67a-Ky-0pn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HPB-1D-jKf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1OB-z1-XfW">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="67a-Ky-0pn" firstAttribute="top" secondItem="1OB-z1-XfW" secondAttribute="bottom" id="4je-uL-vCi"/>
+                            <constraint firstItem="1OB-z1-XfW" firstAttribute="leading" secondItem="HPB-1D-jKf" secondAttribute="leading" id="Lpb-07-LZd"/>
+                            <constraint firstItem="1OB-z1-XfW" firstAttribute="top" secondItem="QFC-ZD-HtJ" secondAttribute="bottom" id="THo-iP-2IY"/>
+                            <constraint firstAttribute="trailing" secondItem="1OB-z1-XfW" secondAttribute="trailing" id="pWo-zJ-1Dh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="1OB-z1-XfW" id="9uZ-Es-4Jt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fiv-hu-k9q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="103" y="-65"/>
+        </scene>
+    </scenes>
+</document>

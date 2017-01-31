@@ -21,13 +21,9 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        Alamofire.request("https://script.google.com/macros/s/AKfycbz54ZkXMpyZXd7gJG9THhBIatqiZyHQQNdPH3Ae8MkYCKbcdFc/exec").responseJSON { response in
-            var result = response.result.value
-            print(result)
-        }
         
-        self.setupFriends()
+        updateData()
+        
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -40,9 +36,22 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
 
     }
     
-    func setupFriends() {
-        let f1 = Cocktail(name: "Ken", descript:"kwen2ksfasdjfioasdfjioafd")
-        Cocktails.append(f1)
+    func updateData(){
+        CocktailAPI.getCocktails(id: "0"){(result, error) in
+            if error == nil{
+                self.setupCocktails(result: result as! NSArray)
+                self.tableView.reloadData()
+            }else{
+                print("リクエストエラー")
+            }
+        }
+    }
+    
+    func setupCocktails(result: NSArray) {
+        for value in result {
+            let cocktail:Cocktail = try! fromJson(dictionary: value as! UnboxableDictionary)
+            Cocktails.append(cocktail)
+        }
     }
 
     
@@ -52,7 +61,7 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as? CustomTableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as? CustomTableCell
         
         //cell中身セット（引数　セル、indexPath）
         cell?.setCell(cocktail: Cocktails[indexPath.row])

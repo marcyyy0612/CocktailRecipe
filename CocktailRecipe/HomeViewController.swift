@@ -59,11 +59,11 @@ class HomeViewController: ButtonBarPagerTabStripViewController, UISearchBarDeleg
     
     override public func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         let gin = UIStoryboard(name: "Gin", bundle: nil).instantiateInitialViewController() as! GinViewController
-        let vodka = VodkaViewController()
-        let tequila = TequilaViewController()
-        let rum = RumViewController()
-        let whiskey = WhiskeyViewController()
-        let liquere = LiquereViewController()
+        let vodka = UIStoryboard(name: "Vodka", bundle: nil).instantiateInitialViewController() as! VodkaViewController
+        let tequila = UIStoryboard(name: "Tequila", bundle: nil).instantiateInitialViewController() as! TequilaViewController
+        let rum = UIStoryboard(name: "Rum", bundle: nil).instantiateInitialViewController() as! RumViewController
+        let whiskey = UIStoryboard(name: "Whiskey", bundle: nil).instantiateInitialViewController() as! WhiskeyViewController
+        let liquere = UIStoryboard(name: "Liquere", bundle: nil).instantiateInitialViewController() as! LiquereViewController
 
         return [gin, vodka, tequila, rum, whiskey, liquere]
     }
