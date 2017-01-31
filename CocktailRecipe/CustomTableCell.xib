@@ -32,9 +32,14 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nUa-sV-Bbo">
+                        <rect key="frame" x="9" y="4" width="90" height="90"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                 </subviews>
             </tableViewCellContentView>
             <connections>
+                <outlet property="CocktailImage" destination="nUa-sV-Bbo" id="Xf9-bV-o51"/>
                 <outlet property="Descript" destination="eBq-zS-HKU" id="fHv-tf-SDv"/>
                 <outlet property="Name" destination="xVc-8H-qPe" id="b6c-8g-ytx"/>
             </connections>

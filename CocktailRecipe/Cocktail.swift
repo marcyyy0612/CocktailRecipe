@@ -15,6 +15,7 @@ struct Cocktail{
     var strength: String
     var taste: String
     var comp: [CocktailComp]
+    var img_path: String
     var descript: String
     
 }
@@ -31,7 +32,7 @@ extension Cocktail: Unboxable {
         self.strength = try unboxer.unbox(key: "strength")
         self.taste = try unboxer.unbox(key: "taste")
         self.comp = try unboxer.unbox(keyPath: "comp")
-//        self.descript = try unboxer.unbox(key: "method")
+        self.img_path = try unboxer.unbox(key: "img_path")
         self.descript = ""
     }
 }
@@ -45,6 +46,7 @@ extension CocktailComp: Unboxable {
 
 func fromJson(dictionary: UnboxableDictionary) throws -> Cocktail{
     var cocktail: Cocktail = try unbox(dictionary: dictionary)
+    cocktail.img_path = "http://drive.google.com/uc?" + cocktail.img_path
     for value in cocktail.comp {
         cocktail.descript += value.material + ":" + value.quantity + ","
     }

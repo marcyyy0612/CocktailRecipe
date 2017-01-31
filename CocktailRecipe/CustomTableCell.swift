@@ -12,6 +12,7 @@ class CustomTableCell: UITableViewCell {
 
     @IBOutlet weak var Name: UILabel!
     @IBOutlet weak var Descript: UILabel!
+    @IBOutlet weak var CocktailImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,4 +28,5 @@ class CustomTableCell: UITableViewCell {
     func setCell(cocktail :Cocktail) {
         self.Name.text = cocktail.name
         self.Descript.text = cocktail.descript
+        self.CocktailImage.image = UIImage(named: "noimage.png")
     }}

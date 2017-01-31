@@ -34,6 +34,7 @@
 		C886A00D1E3F55E0001A38F9 /* Rum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A00C1E3F55E0001A38F9 /* Rum.storyboard */; };
 		C886A00F1E3F55F1001A38F9 /* Whiskey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A00E1E3F55F1001A38F9 /* Whiskey.storyboard */; };
 		C886A0111E3F5603001A38F9 /* Liquere.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A0101E3F5603001A38F9 /* Liquere.storyboard */; };
+		C886A0181E40E8F6001A38F9 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C886A0171E40E8F6001A38F9 /* noimage.png */; };
 		D5DA8D6A398738799DE0B7AD /* Pods_CocktailRecipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59162EC6859B020D768A2D21 /* Pods_CocktailRecipeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +93,7 @@
 		C886A00C1E3F55E0001A38F9 /* Rum.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rum.storyboard; sourceTree = "<group>"; };
 		C886A00E1E3F55F1001A38F9 /* Whiskey.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Whiskey.storyboard; sourceTree = "<group>"; };
 		C886A0101E3F5603001A38F9 /* Liquere.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Liquere.storyboard; sourceTree = "<group>"; };
+		C886A0171E40E8F6001A38F9 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
 		DC8E6986D89A806295985C2B /* Pods-CocktailRecipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipeUITests/Pods-CocktailRecipeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E1A0982EECCEDFA3979479D1 /* Pods-CocktailRecipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipeTests/Pods-CocktailRecipeTests.release.xcconfig"; sourceTree = "<group>"; };
 		E32B821A9F8CA78BAC2C3A1D /* Pods_CocktailRecipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailRecipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 		69A604811D2FCA2800AF67DD /* CocktailRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				C886A0171E40E8F6001A38F9 /* noimage.png */,
 				69C8C3D61D2FCF5300A34A3A /* BaseViewController */,
 				69A604821D2FCA2800AF67DD /* AppDelegate.swift */,
 				69A604841D2FCA2800AF67DD /* HomeViewController.swift */,
@@ -360,6 +363,7 @@
 				C886A00D1E3F55E0001A38F9 /* Rum.storyboard in Resources */,
 				C886A0111E3F5603001A38F9 /* Liquere.storyboard in Resources */,
 				69A6048A1D2FCA2800AF67DD /* Assets.xcassets in Resources */,
+				C886A0181E40E8F6001A38F9 /* noimage.png in Resources */,
 				C886A00B1E3F5514001A38F9 /* Tequila.storyboard in Resources */,
 				C886A0071E3F527A001A38F9 /* Vodka.storyboard in Resources */,
 				6982DAD01E0BBC0F00998800 /* CustomTableCell.xib in Resources */,
