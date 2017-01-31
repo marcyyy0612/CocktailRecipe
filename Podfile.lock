@@ -1,10 +1,13 @@
 PODS:
   - Alamofire (4.2.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
   - Unbox (2.3.0)
   - XLPagerTabStrip (5.0.0)
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireImage
   - Unbox
   - XLPagerTabStrip (from `https://github.com/KelvinJin/XLPagerTabStrip`, branch `swift3_alex`)
 
@@ -20,9 +23,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
   Unbox: 5ba1966ebe99b5d568d432626323331eedd33458
   XLPagerTabStrip: 87b8b705f9a7178e76a063ffaa2d70045944a965
 
-PODFILE CHECKSUM: 7de6dfb4653b9b2d1e151d65fe5cff40d498f3a2
+PODFILE CHECKSUM: df970dd381677c8808feb688c0a56d04d0be1633
 
 COCOAPODS: 1.1.1

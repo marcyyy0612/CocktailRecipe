@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "052C404718D325C9E76834DEAA108E1C"
+               BlueprintIdentifier = "EB835E57F46FDDC22627FEC1A34181AE"
                BuildableName = "Unbox.framework"
                BlueprintName = "Unbox-iOS10.0"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "052C404718D325C9E76834DEAA108E1C"
+            BlueprintIdentifier = "EB835E57F46FDDC22627FEC1A34181AE"
             BuildableName = "Unbox.framework"
             BlueprintName = "Unbox-iOS10.0"
             ReferencedContainer = "container:Pods.xcodeproj">

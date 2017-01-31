@@ -8,8 +8,8 @@ pod 'XLPagerTabStrip', :git => 'https://github.com/KelvinJin/XLPagerTabStrip', :
 end
 
 pod 'Alamofire'
-
 pod 'Unbox'
+pod 'AlamofireImage'
 
 target 'CocktailRecipeTests' do
 # Pods for testing

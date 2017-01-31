@@ -14,6 +14,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AlamofireImage-iOS10.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AlamofireImage-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CocktailRecipe.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,7 +62,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>052C404718D325C9E76834DEAA108E1C</key>
+		<key>01F9E619B83F8634338036B465C9E476</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>21EF4174B1CBEB456FCE2BED08D64CA6</key>
+		<key>34C79FD9E9D125B435312F2348768F28</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,27 +82,37 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>59F50681F6D679BEF9DDAF9F46C25D6B</key>
+		<key>A8D4CDDAA198581132C1D8B21DA72E15</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>739E7E18B3E195AAD13883298EDF645C</key>
+		<key>B31B444F44CA14D34C5684742A62A741</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>80CA5EA79B1989F3D4829DA0BA772A85</key>
+		<key>D5BDA9BAFD6490DE3BB902639D5607C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8DFB556565F5649ABF349D4CCF0CD909</key>
+		<key>DC127C9F383C3188AD24F47F68D075B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A8A83DD2866B87E1A2364A9E786529A3</key>
+		<key>EB835E57F46FDDC22627FEC1A34181AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDF918F0F7FEA02821B7A26AFA4DD6B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB88BF78ECDB0F417BD1A29166AF768E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

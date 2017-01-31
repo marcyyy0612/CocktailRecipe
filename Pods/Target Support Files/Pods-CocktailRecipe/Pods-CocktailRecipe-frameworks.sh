@@ -85,11 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS10.0/Alamofire.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/AlamofireImage-iOS10.0/AlamofireImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Unbox-iOS10.0/Unbox.framework"
   install_framework "$BUILT_PRODUCTS_DIR/XLPagerTabStrip/XLPagerTabStrip.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS10.0/Alamofire.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/AlamofireImage-iOS10.0/AlamofireImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Unbox-iOS10.0/Unbox.framework"
   install_framework "$BUILT_PRODUCTS_DIR/XLPagerTabStrip/XLPagerTabStrip.framework"
 fi
