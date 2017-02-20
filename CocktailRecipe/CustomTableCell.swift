@@ -9,7 +9,6 @@
 import UIKit
 import Foundation
 import Alamofire
-import AlamofireImage
 
 class CustomTableCell: UITableViewCell {
 
@@ -31,10 +30,19 @@ class CustomTableCell: UITableViewCell {
     func setCell(cocktail :Cocktail) {
         self.Name.text = cocktail.name
         self.Descript.text = cocktail.descript
-        Alamofire.request(cocktail.img_path).responseImage { response in
-            self.CocktailImage.image = response.result.value
-        }
 
-//        self.CocktailImage.image = UIImage(named: "noimage.png")
+        print(cocktail.img_path)
+        let decodeBase64 : NSData? =
+            NSData(base64Encoded:
+                cocktail.img_path, options: NSData.Base64DecodingOptions.ignoreUnknownCharacters)
+
+        //NSDataの生成が成功していたら
+        if let decodeSuccess = decodeBase64 {
+            //NSDataからUIImageを生成
+            let img = UIImage(data: decodeSuccess as Data)
+            self.CocktailImage.image = img
+        } else {
+            self.CocktailImage.image = UIImage(named: "noimage.png")
+        }
     }
 }

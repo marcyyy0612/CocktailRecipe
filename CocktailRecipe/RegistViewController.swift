@@ -12,14 +12,14 @@ import Eureka
 import ImageRow
 
 struct uploadCocktail {
-    var number: String? = nil
-    var name: String? = nil
-    var method: String? = nil
-    var type: String? = nil
-    var strength: String? = nil
-    var taste: String? = nil
-    var base: String? = nil
-    var img_path: String? = nil
+    var number: String!
+    var name: String!
+    var method: String!
+    var type: String!
+    var strength: String!
+    var taste: String!
+    var base: String!
+    var img_path: String!
 }
 
 class RegistViewController: FormViewController {
@@ -84,6 +84,14 @@ class RegistViewController: FormViewController {
                 .onChange {row in
 //                    self.userDefault.set(UIImageJPEGRepresentation(row.value!, 0.8) as NSData?, forKey: "Image")
 //                    upload.img_path = UIImageJPEGRepresentation(row.value!, 0.3) as NSData?
+                    
+                    let upImg = row.value!
+                    let resizedSize = CGSize(width: 100, height: 100)
+                    UIGraphicsBeginImageContext(resizedSize);
+                    upImg.draw(in: CGRect(x: 0, y: 0, width: 100, height: 100))
+                    let resizedImage = UIGraphicsGetImageFromCurrentImageContext();
+                    UIGraphicsEndImageContext();
+
                     upload.img_path = (UIImageJPEGRepresentation(row.value!, 0.5) as NSData?)?.base64EncodedString()
 
 //                    print(upload.img_path)

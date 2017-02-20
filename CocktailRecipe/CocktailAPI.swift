@@ -38,8 +38,8 @@ struct CocktailAPI{
             "method": upload.method,
             "type": upload.type,
             "strength": upload.strength,
-            "taste": upload.taste,
-            "img_path": upload.img_path ?? "No image"
+            "taste": upload.taste ?? "さっぱり",
+            "img_path": upload.img_path
         ]
         
         //        Alamofire.request(endpoint, method: .post, parameters: parameters, encoding: JSONEncoding.default)

@@ -46,7 +46,7 @@ extension CocktailComp: Unboxable {
 
 func fromJson(dictionary: UnboxableDictionary) throws -> Cocktail{
     var cocktail: Cocktail = try unbox(dictionary: dictionary)
-    cocktail.img_path = "http://drive.google.com/uc?id=" + cocktail.img_path
+
     for value in cocktail.comp {
         cocktail.descript += value.material + ":" + value.quantity + ","
     }
