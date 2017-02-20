@@ -35,6 +35,8 @@
 		C886A00F1E3F55F1001A38F9 /* Whiskey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A00E1E3F55F1001A38F9 /* Whiskey.storyboard */; };
 		C886A0111E3F5603001A38F9 /* Liquere.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A0101E3F5603001A38F9 /* Liquere.storyboard */; };
 		C886A0181E40E8F6001A38F9 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C886A0171E40E8F6001A38F9 /* noimage.png */; };
+		C8CAC02C1E40FC8900F23367 /* GinDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CAC02B1E40FC8900F23367 /* GinDetailViewController.swift */; };
+		C8F9C6AA1E4C711B0001EC59 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F9C6A91E4C711B0001EC59 /* RegistViewController.swift */; };
 		D5DA8D6A398738799DE0B7AD /* Pods_CocktailRecipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59162EC6859B020D768A2D21 /* Pods_CocktailRecipeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +96,8 @@
 		C886A00E1E3F55F1001A38F9 /* Whiskey.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Whiskey.storyboard; sourceTree = "<group>"; };
 		C886A0101E3F5603001A38F9 /* Liquere.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Liquere.storyboard; sourceTree = "<group>"; };
 		C886A0171E40E8F6001A38F9 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		C8CAC02B1E40FC8900F23367 /* GinDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GinDetailViewController.swift; sourceTree = "<group>"; };
+		C8F9C6A91E4C711B0001EC59 /* RegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
 		DC8E6986D89A806295985C2B /* Pods-CocktailRecipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipeUITests/Pods-CocktailRecipeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E1A0982EECCEDFA3979479D1 /* Pods-CocktailRecipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipeTests/Pods-CocktailRecipeTests.release.xcconfig"; sourceTree = "<group>"; };
 		E32B821A9F8CA78BAC2C3A1D /* Pods_CocktailRecipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailRecipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +166,7 @@
 				6982DACD1E0BBC0F00998800 /* CustomTableCell.swift */,
 				6982DAD11E0BC01500998800 /* Cocktail.swift */,
 				C851F3811E3B2613007686F1 /* CocktailAPI.swift */,
+				C8F9C6A91E4C711B0001EC59 /* RegistViewController.swift */,
 				6982DACE1E0BBC0F00998800 /* CustomTableCell.xib */,
 				69A604861D2FCA2800AF67DD /* Main.storyboard */,
 				69A604891D2FCA2800AF67DD /* Assets.xcassets */,
@@ -193,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				69C8C3D21D2FCEAE00A34A3A /* GinViewController.swift */,
+				C8CAC02B1E40FC8900F23367 /* GinDetailViewController.swift */,
 				69C8C3D41D2FCF3300A34A3A /* VodkaViewController.swift */,
 				6959C2801D2FF56200BE8FC2 /* TequilaViewController.swift */,
 				6959C2861D2FF5FF00BE8FC2 /* LiquereViewController.swift */,
@@ -536,6 +542,7 @@
 				6982DAD21E0BC01500998800 /* Cocktail.swift in Sources */,
 				69C8C3D51D2FCF3300A34A3A /* VodkaViewController.swift in Sources */,
 				6982DACF1E0BBC0F00998800 /* CustomTableCell.swift in Sources */,
+				C8CAC02C1E40FC8900F23367 /* GinDetailViewController.swift in Sources */,
 				6959C2831D2FF57700BE8FC2 /* RumViewController.swift in Sources */,
 				6959C2811D2FF56200BE8FC2 /* TequilaViewController.swift in Sources */,
 				6959C2851D2FF58700BE8FC2 /* WhiskeyViewController.swift in Sources */,
@@ -543,6 +550,7 @@
 				69A604851D2FCA2800AF67DD /* HomeViewController.swift in Sources */,
 				69A604831D2FCA2800AF67DD /* AppDelegate.swift in Sources */,
 				69C8C3D31D2FCEAE00A34A3A /* GinViewController.swift in Sources */,
+				C8F9C6AA1E4C711B0001EC59 /* RegistViewController.swift in Sources */,
 				69070BCB1D32408300EDE060 /* CustomTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

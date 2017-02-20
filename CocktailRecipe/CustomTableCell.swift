@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 import Alamofire
 import AlamofireImage
 
@@ -31,8 +32,9 @@ class CustomTableCell: UITableViewCell {
         self.Name.text = cocktail.name
         self.Descript.text = cocktail.descript
         Alamofire.request(cocktail.img_path).responseImage { response in
-            print(cocktail.img_path)
             self.CocktailImage.image = response.result.value
         }
+
 //        self.CocktailImage.image = UIImage(named: "noimage.png")
-    }}
+    }
+}

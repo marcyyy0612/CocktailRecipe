@@ -1,10 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Alamofire-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/AlamofireImage-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/Unbox-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/XLPagerTabStrip"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Alamofire-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/AlamofireImage-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/Eureka-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/ImageRow-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/Realm-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/RealmSwift-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/Unbox-iOS10.0" "$PODS_CONFIGURATION_BUILD_DIR/XLPagerTabStrip"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Alamofire-iOS10.0/Alamofire.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AlamofireImage-iOS10.0/AlamofireImage.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Unbox-iOS10.0/Unbox.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/XLPagerTabStrip/XLPagerTabStrip.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "AlamofireImage" -framework "Unbox" -framework "XLPagerTabStrip"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Alamofire-iOS10.0/Alamofire.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AlamofireImage-iOS10.0/AlamofireImage.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Eureka-iOS10.0/Eureka.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ImageRow-iOS10.0/ImageRow.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Realm-iOS10.0/Realm.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RealmSwift-iOS10.0/RealmSwift.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Unbox-iOS10.0/Unbox.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/XLPagerTabStrip/XLPagerTabStrip.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Alamofire" -framework "AlamofireImage" -framework "Eureka" -framework "ImageRow" -framework "Realm" -framework "RealmSwift" -framework "Unbox" -framework "XLPagerTabStrip"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

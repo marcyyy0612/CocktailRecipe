@@ -86,10 +86,18 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS9.3/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AlamofireImage-iOS9.3/AlamofireImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Eureka-iOS9.3/Eureka.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ImageRow-iOS9.3/ImageRow.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Realm-iOS9.3/Realm.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RealmSwift-iOS9.3/RealmSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Unbox-iOS9.3/Unbox.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS9.3/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AlamofireImage-iOS9.3/AlamofireImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Eureka-iOS9.3/Eureka.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ImageRow-iOS9.3/ImageRow.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Realm-iOS9.3/Realm.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RealmSwift-iOS9.3/RealmSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Unbox-iOS9.3/Unbox.framework"
 fi

@@ -10,6 +10,9 @@ end
 pod 'Alamofire'
 pod 'Unbox'
 pod 'AlamofireImage'
+pod 'RealmSwift'
+pod 'Eureka', '~> 2.0.0-beta.1'
+pod 'ImageRow'
 
 target 'CocktailRecipeTests' do
 # Pods for testing

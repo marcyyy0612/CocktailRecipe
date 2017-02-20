@@ -23,16 +23,16 @@ class HomeViewController: ButtonBarPagerTabStripViewController, UISearchBarDeleg
 //            //ナビゲーションのタイトル文字列の色を変更
 //            self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
             
-            let searchBar: UISearchBar = UISearchBar(frame: navigationBarFrame)
-            searchBar.delegate = self
-            searchBar.showsCancelButton = true
-            searchBar.keyboardAppearance = UIKeyboardAppearance.dark
-            searchBar.keyboardType = UIKeyboardType.default
-            navigationItem.titleView = searchBar
-            navigationItem.titleView?.frame = searchBar.frame
-            self.searchBar = searchBar
-            searchBar.becomeFirstResponder()
-            navigationController?.setNavigationBarHidden(false, animated: true)
+//            let searchBar: UISearchBar = UISearchBar(frame: navigationBarFrame)
+//            searchBar.delegate = self
+//            searchBar.showsCancelButton = true
+//            searchBar.keyboardAppearance = UIKeyboardAppearance.dark
+//            searchBar.keyboardType = UIKeyboardType.default
+//            navigationItem.titleView = searchBar
+//            navigationItem.titleView?.frame = searchBar.frame
+//            self.searchBar = searchBar
+//            searchBar.becomeFirstResponder()
+//            navigationController?.setNavigationBarHidden(false, animated: true)
         }
         
         // change selected bar color
@@ -59,6 +59,8 @@ class HomeViewController: ButtonBarPagerTabStripViewController, UISearchBarDeleg
     
     override public func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         let gin = UIStoryboard(name: "Gin", bundle: nil).instantiateInitialViewController() as! GinViewController
+//        let GinNavi = UINavigationController(rootViewController: gin)
+        
         let vodka = UIStoryboard(name: "Vodka", bundle: nil).instantiateInitialViewController() as! VodkaViewController
         let tequila = UIStoryboard(name: "Tequila", bundle: nil).instantiateInitialViewController() as! TequilaViewController
         let rum = UIStoryboard(name: "Rum", bundle: nil).instantiateInitialViewController() as! RumViewController
@@ -70,22 +72,29 @@ class HomeViewController: ButtonBarPagerTabStripViewController, UISearchBarDeleg
     
     // MARK: - Custom Action
     
-    // キーボードが表示を監視
-    override func viewWillAppear(_ animated: Bool) {
-        let notificationCenter = NotificationCenter.default
-        notificationCenter.addObserver(self, selector: #selector(HomeViewController.handleKeyboardWillShowNotification(_:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-    }
-    
-    // キーボードが表示されるときにキャンセルボタンを有効に
-    func handleKeyboardWillShowNotification(_ notification: Notification) {
-        searchBar.showsCancelButton = true
-    }
-    
-    // キャンセルボタンが押されたらキャンセルボタンを無効にしてフォーカスをはずす
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        searchBar.showsCancelButton = false
-        searchBar.resignFirstResponder()
-    }
+//    // キーボードが表示を監視
+//    override func viewWillAppear(_ animated: Bool) {
+//        let notificationCenter = NotificationCenter.default
+//        notificationCenter.addObserver(self, selector: #selector(HomeViewController.handleKeyboardWillShowNotification(_:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+//    }
+//    
+//    // キーボードが表示されるときにキャンセルボタンを有効に
+//    func handleKeyboardWillShowNotification(_ notification: Notification) {
+//        searchBar.showsCancelButton = true
+//    }
+//    
+//    // キャンセルボタンが押されたらキャンセルボタンを無効にしてフォーカスをはずす
+//    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+//        searchBar.showsCancelButton = false
+//        searchBar.resignFirstResponder()
+//    }
+//    
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        //非表示にする。
+//        if(searchBar.isFirstResponder){
+//            searchBar.resignFirstResponder()
+//        }
+//    }
     
     @IBAction func closeAction(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)

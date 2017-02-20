@@ -2,12 +2,23 @@ PODS:
   - Alamofire (4.2.0)
   - AlamofireImage (3.2.0):
     - Alamofire (~> 4.1)
+  - Eureka (2.0.0-beta.1)
+  - ImageRow (1.0.0):
+    - Eureka (~> 2.0.0-beta.1)
+  - Realm (2.2.0):
+    - Realm/Headers (= 2.2.0)
+  - Realm/Headers (2.2.0)
+  - RealmSwift (2.2.0):
+    - Realm (= 2.2.0)
   - Unbox (2.3.0)
   - XLPagerTabStrip (5.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireImage
+  - Eureka (~> 2.0.0-beta.1)
+  - ImageRow
+  - RealmSwift
   - Unbox
   - XLPagerTabStrip (from `https://github.com/KelvinJin/XLPagerTabStrip`, branch `swift3_alex`)
 
@@ -24,9 +35,13 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
   AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Eureka: d014adf16406745e1a78d5790ea37ed130a0a8e5
+  ImageRow: 1e37db26f61a0c4ad3bc9a3a803c32d968782857
+  Realm: d95b8fb34c83f1e764b66d319277a62c2b6e4bf5
+  RealmSwift: a4fa52d06e946a32ec746b3388374f742e6b8731
   Unbox: 5ba1966ebe99b5d568d432626323331eedd33458
   XLPagerTabStrip: 87b8b705f9a7178e76a063ffaa2d70045944a965
 
-PODFILE CHECKSUM: df970dd381677c8808feb688c0a56d04d0be1633
+PODFILE CHECKSUM: 5530df4ba92782a388cf9940c5232d0808ef6c17
 
 COCOAPODS: 1.1.1

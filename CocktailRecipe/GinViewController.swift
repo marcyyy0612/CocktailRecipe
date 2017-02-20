@@ -31,9 +31,9 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
         let nib = UINib(nibName: "CustomTableCell", bundle: nil)
         // UITableViewにXIBファイルを登録
         tableView.register(nib, forCellReuseIdentifier: "Cell")
-
+        
         view.backgroundColor = .white
-
+        
     }
     
     func updateData(){
@@ -67,6 +67,15 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
         cell?.setCell(cocktail: Cocktails[indexPath.row])
 
         return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let storyboard: UIStoryboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "detail") as! GinDetailViewController
+        nextView.cocktail_name = Cocktails[indexPath.row].name
+        self.navigationController?.pushViewController(nextView, animated: true)
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+        
     }
     
 }

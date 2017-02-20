@@ -24,6 +24,26 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Eureka-iOS10.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Eureka-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ImageRow-iOS10.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ImageRow-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CocktailRecipe.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -35,6 +55,26 @@
 			<false/>
 		</dict>
 		<key>Pods-CocktailRecipeUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm-iOS10.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift-iOS10.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift-iOS9.3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -62,12 +102,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>01F9E619B83F8634338036B465C9E476</key>
+		<key>052C23CDF99DF796185F6B2F2B1ED51F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B9AAEDCF65BBFF9DFC63BBD17EF1C16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>0E607F3F7FAAFC02CBCBA8B29C32E600</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21A50C96EA77E636A9E0010B384C59D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +132,47 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A8D4CDDAA198581132C1D8B21DA72E15</key>
+		<key>40425ECAF7FB3D4B83BC025AD76D58AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52BD2019C91EE10E5A82975CDF9D8FEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58F07F9F61FBB223FEA53FA81E81392E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>627D19672388096C51F829884ED27813</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82C9CF055AE32D316214A4837707C60A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8462ACC7B66C94108ABA9ADD683C51EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>985442B0E20B4996F87956EA9BCA7A6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB3B0E8B538CFF515A12623467AD2C5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0AD9D47ADDCF238AAE2930B902C93CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,27 +182,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D5BDA9BAFD6490DE3BB902639D5607C5</key>
+		<key>C2E6F5ED7BBA6BA965CB01E1BB13B3F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DC127C9F383C3188AD24F47F68D075B3</key>
+		<key>DEC7BA8094F7DB46CD9C18D709388CE9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EB835E57F46FDDC22627FEC1A34181AE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EDF918F0F7FEA02821B7A26AFA4DD6B4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FB88BF78ECDB0F417BD1A29166AF768E</key>
+		<key>F0BC9FC14178D01F72EA8FCA91F3AD86</key>
 		<dict>
 			<key>primary</key>
 			<true/>

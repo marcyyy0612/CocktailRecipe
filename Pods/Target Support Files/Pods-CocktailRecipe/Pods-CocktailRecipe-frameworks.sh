@@ -86,12 +86,20 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS10.0/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AlamofireImage-iOS10.0/AlamofireImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Eureka-iOS10.0/Eureka.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ImageRow-iOS10.0/ImageRow.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Realm-iOS10.0/Realm.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RealmSwift-iOS10.0/RealmSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Unbox-iOS10.0/Unbox.framework"
   install_framework "$BUILT_PRODUCTS_DIR/XLPagerTabStrip/XLPagerTabStrip.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS10.0/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AlamofireImage-iOS10.0/AlamofireImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Eureka-iOS10.0/Eureka.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ImageRow-iOS10.0/ImageRow.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Realm-iOS10.0/Realm.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RealmSwift-iOS10.0/RealmSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Unbox-iOS10.0/Unbox.framework"
   install_framework "$BUILT_PRODUCTS_DIR/XLPagerTabStrip/XLPagerTabStrip.framework"
 fi
