@@ -18,10 +18,12 @@ class VodkaViewController: UIViewController, IndicatorInfoProvider, UITableViewD
     
     @IBOutlet weak var tableView: UITableView!
     var Cocktails:[Cocktail] = [Cocktail]()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        LoadingProxy.set(v: self)
+        LoadingProxy.on()
         updateData()
         
         tableView.delegate = self
@@ -37,8 +39,9 @@ class VodkaViewController: UIViewController, IndicatorInfoProvider, UITableViewD
     }
     
     func updateData(){
-        CocktailAPI.getCocktails(id: "1"){(result, error) in
+        CocktailAPI.getCocktails(id: "2"){(result, error) in
             if error == nil{
+                LoadingProxy.off()
                 self.setupCocktails(result: result as! NSArray)
                 self.tableView.reloadData()
             }else{
@@ -68,5 +71,4 @@ class VodkaViewController: UIViewController, IndicatorInfoProvider, UITableViewD
         
         return cell!
     }
-    
 }

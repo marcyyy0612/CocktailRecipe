@@ -30,8 +30,8 @@ class CustomTableCell: UITableViewCell {
     func setCell(cocktail :Cocktail) {
         self.Name.text = cocktail.name
         self.Descript.text = cocktail.descript
-
-        print(cocktail.img_path)
+        
+//        print(cocktail.img_path)
         let decodeBase64 : NSData? =
             NSData(base64Encoded:
                 cocktail.img_path, options: NSData.Base64DecodingOptions.ignoreUnknownCharacters)

@@ -22,6 +22,8 @@ class RumViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        LoadingProxy.set(v: self)
+        LoadingProxy.on()
         updateData()
         
         tableView.delegate = self
@@ -37,8 +39,9 @@ class RumViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
     }
     
     func updateData(){
-        CocktailAPI.getCocktails(id: "0"){(result, error) in
+        CocktailAPI.getCocktails(id: "4"){(result, error) in
             if error == nil{
+                LoadingProxy.off()
                 self.setupCocktails(result: result as! NSArray)
                 self.tableView.reloadData()
             }else{
@@ -68,5 +71,4 @@ class RumViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
         
         return cell!
     }
-    
 }

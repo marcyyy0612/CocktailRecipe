@@ -17,7 +17,6 @@ struct Cocktail{
     var comp: [CocktailComp]
     var img_path: String
     var descript: String
-    
 }
 
 struct CocktailComp {

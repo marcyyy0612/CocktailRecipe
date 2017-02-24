@@ -29,6 +29,7 @@
 		69C8C3D31D2FCEAE00A34A3A /* GinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C8C3D21D2FCEAE00A34A3A /* GinViewController.swift */; };
 		69C8C3D51D2FCF3300A34A3A /* VodkaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C8C3D41D2FCF3300A34A3A /* VodkaViewController.swift */; };
 		C851F3821E3B2613007686F1 /* CocktailAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851F3811E3B2613007686F1 /* CocktailAPI.swift */; };
+		C88584751E605EDF00692C11 /* LoadingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88584741E605EDF00692C11 /* LoadingProxy.swift */; };
 		C886A0071E3F527A001A38F9 /* Vodka.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A0061E3F527A001A38F9 /* Vodka.storyboard */; };
 		C886A00B1E3F5514001A38F9 /* Tequila.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A00A1E3F5514001A38F9 /* Tequila.storyboard */; };
 		C886A00D1E3F55E0001A38F9 /* Rum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A00C1E3F55E0001A38F9 /* Rum.storyboard */; };
@@ -90,6 +91,7 @@
 		754CEEA17508CA83F5607DC5 /* Pods-CocktailRecipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailRecipeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailRecipeUITests/Pods-CocktailRecipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3FD8B20C50E6462E0A6FFD3 /* Pods_CocktailRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C851F3811E3B2613007686F1 /* CocktailAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocktailAPI.swift; sourceTree = "<group>"; };
+		C88584741E605EDF00692C11 /* LoadingProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingProxy.swift; sourceTree = "<group>"; };
 		C886A0061E3F527A001A38F9 /* Vodka.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Vodka.storyboard; sourceTree = "<group>"; };
 		C886A00A1E3F5514001A38F9 /* Tequila.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tequila.storyboard; sourceTree = "<group>"; };
 		C886A00C1E3F55E0001A38F9 /* Rum.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rum.storyboard; sourceTree = "<group>"; };
@@ -161,14 +163,15 @@
 				69C8C3D61D2FCF5300A34A3A /* BaseViewController */,
 				69A604821D2FCA2800AF67DD /* AppDelegate.swift */,
 				69A604841D2FCA2800AF67DD /* HomeViewController.swift */,
+				C88584741E605EDF00692C11 /* LoadingProxy.swift */,
+				69A604861D2FCA2800AF67DD /* Main.storyboard */,
 				69070BCA1D32408300EDE060 /* CustomTabBarController.swift */,
 				C886A0121E3F5611001A38F9 /* BaseStoryboard */,
 				6982DACD1E0BBC0F00998800 /* CustomTableCell.swift */,
+				6982DACE1E0BBC0F00998800 /* CustomTableCell.xib */,
 				6982DAD11E0BC01500998800 /* Cocktail.swift */,
 				C851F3811E3B2613007686F1 /* CocktailAPI.swift */,
 				C8F9C6A91E4C711B0001EC59 /* RegistViewController.swift */,
-				6982DACE1E0BBC0F00998800 /* CustomTableCell.xib */,
-				69A604861D2FCA2800AF67DD /* Main.storyboard */,
 				69A604891D2FCA2800AF67DD /* Assets.xcassets */,
 				69A6048B1D2FCA2800AF67DD /* LaunchScreen.storyboard */,
 				69A6048E1D2FCA2800AF67DD /* Info.plist */,
@@ -547,6 +550,7 @@
 				6959C2811D2FF56200BE8FC2 /* TequilaViewController.swift in Sources */,
 				6959C2851D2FF58700BE8FC2 /* WhiskeyViewController.swift in Sources */,
 				6959C2871D2FF5FF00BE8FC2 /* LiquereViewController.swift in Sources */,
+				C88584751E605EDF00692C11 /* LoadingProxy.swift in Sources */,
 				69A604851D2FCA2800AF67DD /* HomeViewController.swift in Sources */,
 				69A604831D2FCA2800AF67DD /* AppDelegate.swift in Sources */,
 				69C8C3D31D2FCEAE00A34A3A /* GinViewController.swift in Sources */,
