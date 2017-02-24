@@ -54,7 +54,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="nAR-Sd-SdZ" kind="relationship" relationship="rootViewController" id="kvD-uq-5zT"/>
+                        <segue destination="zOZ-ww-ifn" kind="relationship" relationship="rootViewController" id="vMe-TF-kbh"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SyG-Bj-Xgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -64,7 +64,7 @@
         <!--Regist View Controller-->
         <scene sceneID="J5f-Hu-tzv">
             <objects>
-                <viewController id="nAR-Sd-SdZ" customClass="RegistViewController" customModule="CocktailRecipe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Regist" id="nAR-Sd-SdZ" customClass="RegistViewController" customModule="CocktailRecipe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lGB-tV-S3R"/>
                         <viewControllerLayoutGuide type="bottom" id="vyO-XR-eyn"/>
@@ -78,7 +78,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vo6-ur-7tf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="959" y="826"/>
+            <point key="canvasLocation" x="1862" y="825"/>
+        </scene>
+        <!--Prepare Regist View Controller-->
+        <scene sceneID="Le2-nr-JbV">
+            <objects>
+                <viewController storyboardIdentifier="Prepare" id="zOZ-ww-ifn" customClass="PrepareRegistViewController" customModule="CocktailRecipe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZIT-iV-ZpE"/>
+                        <viewControllerLayoutGuide type="bottom" id="t9e-BN-ucs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uo0-tI-0eM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UUT-xD-rxv">
+                                <rect key="frame" x="39" y="303" width="296" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="StartRegistCocktail">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nAR-Sd-SdZ" kind="show" id="kYw-BY-I0P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iTg-2M-0Lv"/>
+                    <connections>
+                        <outlet property="registBtn" destination="UUT-xD-rxv" id="Flo-52-3C3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5xV-vz-lyZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="825.33733133433293"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">

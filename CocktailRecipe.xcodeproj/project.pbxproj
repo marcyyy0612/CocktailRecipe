@@ -35,6 +35,7 @@
 		C885847B1E60703600692C11 /* LiquereDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885847A1E60703600692C11 /* LiquereDetailViewController.swift */; };
 		C885847D1E60704A00692C11 /* RumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885847C1E60704A00692C11 /* RumDetailViewController.swift */; };
 		C885847F1E60705E00692C11 /* WhiskeyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885847E1E60705E00692C11 /* WhiskeyDetailViewController.swift */; };
+		C88584811E60857500692C11 /* PrepareRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88584801E60857500692C11 /* PrepareRegistViewController.swift */; };
 		C886A0071E3F527A001A38F9 /* Vodka.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A0061E3F527A001A38F9 /* Vodka.storyboard */; };
 		C886A00B1E3F5514001A38F9 /* Tequila.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A00A1E3F5514001A38F9 /* Tequila.storyboard */; };
 		C886A00D1E3F55E0001A38F9 /* Rum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886A00C1E3F55E0001A38F9 /* Rum.storyboard */; };
@@ -102,6 +103,7 @@
 		C885847A1E60703600692C11 /* LiquereDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquereDetailViewController.swift; sourceTree = "<group>"; };
 		C885847C1E60704A00692C11 /* RumDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RumDetailViewController.swift; sourceTree = "<group>"; };
 		C885847E1E60705E00692C11 /* WhiskeyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiskeyDetailViewController.swift; sourceTree = "<group>"; };
+		C88584801E60857500692C11 /* PrepareRegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareRegistViewController.swift; sourceTree = "<group>"; };
 		C886A0061E3F527A001A38F9 /* Vodka.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Vodka.storyboard; sourceTree = "<group>"; };
 		C886A00A1E3F5514001A38F9 /* Tequila.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tequila.storyboard; sourceTree = "<group>"; };
 		C886A00C1E3F55E0001A38F9 /* Rum.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rum.storyboard; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				6982DAD11E0BC01500998800 /* Cocktail.swift */,
 				C851F3811E3B2613007686F1 /* CocktailAPI.swift */,
 				C8F9C6A91E4C711B0001EC59 /* RegistViewController.swift */,
+				C88584801E60857500692C11 /* PrepareRegistViewController.swift */,
 				69A604891D2FCA2800AF67DD /* Assets.xcassets */,
 				69A6048B1D2FCA2800AF67DD /* LaunchScreen.storyboard */,
 				69A6048E1D2FCA2800AF67DD /* Info.plist */,
@@ -572,6 +575,7 @@
 				C88584751E605EDF00692C11 /* LoadingProxy.swift in Sources */,
 				69A604851D2FCA2800AF67DD /* HomeViewController.swift in Sources */,
 				69A604831D2FCA2800AF67DD /* AppDelegate.swift in Sources */,
+				C88584811E60857500692C11 /* PrepareRegistViewController.swift in Sources */,
 				C885847D1E60704A00692C11 /* RumDetailViewController.swift in Sources */,
 				69C8C3D31D2FCEAE00A34A3A /* GinViewController.swift in Sources */,
 				C8F9C6AA1E4C711B0001EC59 /* RegistViewController.swift in Sources */,
