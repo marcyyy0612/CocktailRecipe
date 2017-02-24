@@ -36,11 +36,69 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="sua-yo-IvI" id="B2q-fg-sAm"/>
+                        <segue destination="ZQv-1v-TjB" kind="show" id="7k1-jo-A0W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eey-NB-CsR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="103" y="-65"/>
+        </scene>
+        <!--Vodka Detail View Controller-->
+        <scene sceneID="NiK-BR-Hgj">
+            <objects>
+                <viewController storyboardIdentifier="detail" id="ZQv-1v-TjB" customClass="VodkaDetailViewController" customModule="CocktailRecipe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j4R-mB-w3r"/>
+                        <viewControllerLayoutGuide type="bottom" id="CjN-f6-vwF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fP4-rb-Vze">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vOa-Bb-LiU">
+                                <rect key="frame" x="112" y="118" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="材料" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5EK-qK-BZD">
+                                <rect key="frame" x="16" y="304" width="65" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSZ-J2-3eV">
+                                <rect key="frame" x="16" y="73" width="343" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detail" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPI-V3-OQM">
+                                <rect key="frame" x="16" y="333" width="343" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vd6-3n-RNq">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Gs8-rI-qG7">
+                            <connections>
+                                <action selector="goBack" destination="Jcs-P7-uYN" id="chX-zf-vQx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="CocktailDetail" destination="uPI-V3-OQM" id="Ghz-km-ybs"/>
+                        <outlet property="CocktailImage" destination="vOa-Bb-LiU" id="CpO-wS-YOT"/>
+                        <outlet property="CocktailName" destination="lSZ-J2-3eV" id="n5c-K4-wSj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jcs-P7-uYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039" y="-65"/>
         </scene>
     </scenes>
 </document>

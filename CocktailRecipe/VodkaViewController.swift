@@ -18,12 +18,12 @@ class VodkaViewController: UIViewController, IndicatorInfoProvider, UITableViewD
     
     @IBOutlet weak var tableView: UITableView!
     var Cocktails:[Cocktail] = [Cocktail]()
+    private let refreshControl = UIRefreshControl()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         LoadingProxy.set(v: self)
-        LoadingProxy.on()
         updateData()
         
         tableView.delegate = self
@@ -35,10 +35,12 @@ class VodkaViewController: UIViewController, IndicatorInfoProvider, UITableViewD
         tableView.register(nib, forCellReuseIdentifier: "Cell")
         
         view.backgroundColor = .white
-        
+        tableView.refreshControl = refreshControl
+        refreshControl.addTarget(self, action: #selector(GinViewController.refresh(sender:)), for: .valueChanged)
     }
     
     func updateData(){
+        LoadingProxy.on()
         CocktailAPI.getCocktails(id: "2"){(result, error) in
             if error == nil{
                 LoadingProxy.off()
@@ -70,5 +72,25 @@ class VodkaViewController: UIViewController, IndicatorInfoProvider, UITableViewD
         cell?.setCell(cocktail: Cocktails[indexPath.row])
         
         return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let storyboard: UIStoryboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "detail") as! VodkaDetailViewController
+        
+        nextView.cocktail_name = Cocktails[indexPath.row].name
+        nextView.cocktail_image = Cocktails[indexPath.row].img_path
+        nextView.cocktail_comp = Cocktails[indexPath.row].comp
+        
+        self.navigationController?.pushViewController(nextView, animated: true)
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+    }
+    
+    func refresh(sender: UIRefreshControl) {
+        // ここに通信処理などデータフェッチの処理を書く
+        // データフェッチが終わったらUIRefreshControl.endRefreshing()を呼ぶ必要がある
+        Cocktails.removeAll()
+        updateData()
+        self.refreshControl.endRefreshing()
     }
 }

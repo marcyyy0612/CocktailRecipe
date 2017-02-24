@@ -49,5 +49,8 @@ func fromJson(dictionary: UnboxableDictionary) throws -> Cocktail{
     for value in cocktail.comp {
         cocktail.descript += value.material + ":" + value.quantity + ","
     }
+    var endPoint = cocktail.descript.characters.count - 1
+    cocktail.descript = (cocktail.descript as NSString).substring(to: endPoint)
+
     return cocktail
 }

@@ -18,13 +18,12 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
     
     @IBOutlet weak var tableView: UITableView!
     var Cocktails:[Cocktail] = [Cocktail]()
-    
+    private let refreshControl = UIRefreshControl()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         LoadingProxy.set(v: self)
-        LoadingProxy.on()
         updateData()
         
         tableView.delegate = self
@@ -37,9 +36,12 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
         
         view.backgroundColor = .white
         
+        tableView.refreshControl = refreshControl
+        refreshControl.addTarget(self, action: #selector(GinViewController.refresh(sender:)), for: .valueChanged)
     }
     
     func updateData(){
+        LoadingProxy.on()
         CocktailAPI.getCocktails(id: "1"){(result, error) in
             if error == nil{
                 LoadingProxy.off()
@@ -57,7 +59,6 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
             Cocktails.append(cocktail)
         }
     }
-
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Cocktails.count
@@ -79,34 +80,17 @@ class GinViewController: UIViewController, IndicatorInfoProvider, UITableViewDat
         
         nextView.cocktail_name = Cocktails[indexPath.row].name
         nextView.cocktail_image = Cocktails[indexPath.row].img_path
+        nextView.cocktail_comp = Cocktails[indexPath.row].comp
         
         self.navigationController?.pushViewController(nextView, animated: true)
         tableView.deselectRow(at: indexPath as IndexPath, animated: true)
-        
     }
     
-//    func showIndicator(){
-//        //Indicatorを作成
-//        ActivityIndicator = UIActivityIndicatorView()
-//        ActivityIndicator.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
-////        ActivityIndicator.backgroundColor = UIColor(red: 0/2555, green: 0/255, blue: 0/255, alpha: 0.7)
-//        ActivityIndicator.layer.cornerRadius = 10
-//        ActivityIndicator.center = self.view.center
-//        
-//        //Indicatorの状態を管理
-//        ActivityIndicator.hidesWhenStopped = true
-//        ActivityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
-//        
-//        //クルクルを開始
-//        ActivityIndicator.startAnimating()
-//        
-//        //Viewに追加
-//        self.view.addSubview(ActivityIndicator)
-//    }
-//    
-//    //Indicatorを止めるときは、こちらを呼び出してあげます。
-//    func hideIndicator(){
-//        ActivityIndicator.stopAnimating()
-//    }
-    
+    func refresh(sender: UIRefreshControl) {
+        // ここに通信処理などデータフェッチの処理を書く
+        // データフェッチが終わったらUIRefreshControl.endRefreshing()を呼ぶ必要がある
+        Cocktails.removeAll()
+        updateData()
+        self.refreshControl.endRefreshing()
+    }
 }

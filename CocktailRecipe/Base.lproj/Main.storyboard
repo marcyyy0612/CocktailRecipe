@@ -47,7 +47,6 @@
         <!--Regist-->
         <scene sceneID="buz-9O-WrW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SyG-Bj-Xgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="KHX-ve-uJN" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Regist" id="jqm-O2-J7Z"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wyG-tY-vbN">
@@ -58,6 +57,7 @@
                         <segue destination="nAR-Sd-SdZ" kind="relationship" relationship="rootViewController" id="kvD-uq-5zT"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SyG-Bj-Xgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="162" y="827"/>
         </scene>

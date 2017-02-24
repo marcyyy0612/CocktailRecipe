@@ -25,7 +25,7 @@ struct uploadCocktail {
 class RegistViewController: FormViewController {
     
     override func viewDidLoad() {
-        LoadingProxy.set(v: self)
+//        LoadingProxy.set(v: self)
         var upload = uploadCocktail()
         var count = 0
         var strCount = 1
@@ -153,7 +153,7 @@ class RegistViewController: FormViewController {
             <<< ButtonRow("Upload") {
                 $0.title = "Upload"
                 } .onCellSelection {_ in  //do whatever you want
-                    LoadingProxy.on()
+//                    LoadingProxy.on()
                     for i in 0..<tempMaterial.count {
                         tempComp["material"] = tempMaterial[i]
                         tempComp["quantity"] = tempQuantity[i]
@@ -162,11 +162,11 @@ class RegistViewController: FormViewController {
                     //                    print(upload.comp)
                     CocktailAPI.postCocktails(upload: upload){(result, error) in
                         if error == nil{
-                            LoadingProxy.off()
+//                            LoadingProxy.off()
                         }else{
                             print("リクエストエラー")
                         }
                     }
         }
-    }
+    }//end viewDidLoad()
 }

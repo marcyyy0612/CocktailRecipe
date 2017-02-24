@@ -1,17 +1,17 @@
 //
-//  GinDetailViewController.swift
+//  WhiskeyDetailViewController.swift
 //  CocktailRecipe
 //
-//  Created by Masashi Hamano on 2017/02/01.
+//  Created by Masashi Hamano on 2017/02/24.
 //  Copyright © 2017年 Marcy. All rights reserved.
 //
 
 import Foundation
 import XLPagerTabStrip
 
-class GinDetailViewController: UIViewController {
+class WhiskeyDetailViewController: UIViewController {
     public func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "GIN")
+        return IndicatorInfo(title: "Whiskey")
     }
     
     @IBOutlet weak var CocktailImage: UIImageView!
