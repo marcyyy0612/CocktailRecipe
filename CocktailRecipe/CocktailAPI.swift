@@ -56,7 +56,7 @@ struct CocktailAPI{
 //        print(upload.comp)
         Alamofire.request(endpoint, method: .post, parameters: parameters, encoding: JSONEncoding.default)
             .responseString { response in
-                print(response.result.value)
+                result(response.result.value!, nil)
         }
     }
 }

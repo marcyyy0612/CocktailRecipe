@@ -14,12 +14,15 @@ class WhiskeyDetailViewController: UIViewController {
         return IndicatorInfo(title: "Whiskey")
     }
     
-    @IBOutlet weak var CocktailImage: UIImageView!
+    
     @IBOutlet weak var CocktailName: UILabel!
+    @IBOutlet weak var CocktailImage: UIImageView!
+    @IBOutlet weak var CocktailMethod: UILabel!
     @IBOutlet weak var CocktailDetail: UILabel!
     
     var cocktail_name: String = ""
     var cocktail_image: String = ""
+    var cocktail_method: String = ""
     var cocktail_comp = [CocktailComp]()
     var cocktail_detail: String = ""
     
@@ -27,6 +30,7 @@ class WhiskeyDetailViewController: UIViewController {
         super.viewDidLoad()
         
         self.CocktailName.text = cocktail_name
+        self.CocktailMethod.text = cocktail_method
         for value in cocktail_comp {
             cocktail_detail += value.material + " : " + value.quantity + "\n"
         }

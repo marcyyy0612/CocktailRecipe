@@ -172,13 +172,13 @@
 			isa = PBXGroup;
 			children = (
 				C886A0171E40E8F6001A38F9 /* noimage.png */,
-				69C8C3D61D2FCF5300A34A3A /* BaseViewController */,
-				69A604821D2FCA2800AF67DD /* AppDelegate.swift */,
 				69A604841D2FCA2800AF67DD /* HomeViewController.swift */,
-				C88584741E605EDF00692C11 /* LoadingProxy.swift */,
-				69A604861D2FCA2800AF67DD /* Main.storyboard */,
 				69070BCA1D32408300EDE060 /* CustomTabBarController.swift */,
+				69A604861D2FCA2800AF67DD /* Main.storyboard */,
+				69C8C3D61D2FCF5300A34A3A /* BaseViewController */,
 				C886A0121E3F5611001A38F9 /* BaseStoryboard */,
+				69A604821D2FCA2800AF67DD /* AppDelegate.swift */,
+				C88584741E605EDF00692C11 /* LoadingProxy.swift */,
 				6982DACD1E0BBC0F00998800 /* CustomTableCell.swift */,
 				6982DACE1E0BBC0F00998800 /* CustomTableCell.xib */,
 				6982DAD11E0BC01500998800 /* Cocktail.swift */,

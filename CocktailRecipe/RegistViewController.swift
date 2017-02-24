@@ -12,7 +12,7 @@ import Eureka
 import ImageRow
 
 struct uploadCocktail {
-    var number: String?
+    var number: String? = "1"
     var name: String?
     var method: String?
     var type: String?
@@ -72,7 +72,7 @@ class RegistViewController: FormViewController {
             <<< PickerInlineRow<String>("Base") {
                 $0.title = "ベース酒選択"
                 $0.options = ["Gin","Vodka","Tequila", "Rum", "Whiskey", "Liquere"]
-                //                $0.value = "Gin"    // initially selected
+                $0.value = "Gin"    // initially selected
                 }.onChange{row in
                     if(row.value! == "Gin") {
                         upload.number = "1"
@@ -159,14 +159,27 @@ class RegistViewController: FormViewController {
                         tempComp["quantity"] = tempQuantity[i]
                         upload.comp.append(tempComp)
                     }
-                    //                    print(upload.comp)
-                    CocktailAPI.postCocktails(upload: upload){(result, error) in
-                        if error == nil{
-//                            LoadingProxy.off()
-                        }else{
-                            print("リクエストエラー")
+                    //保存前アラート表示
+                    let alert: UIAlertController = UIAlertController(title: "新しいカクテル", message: "保存しますか？", preferredStyle:  UIAlertControllerStyle.actionSheet)
+                    let defaultAction: UIAlertAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler:{
+                        (action: UIAlertAction!) -> Void in
+                        CocktailAPI.postCocktails(upload: upload){(result, error) in //post newカクテル
+                            if error == nil{
+                                self.navigationController?.popViewController(animated: true)
+                                //   LoadingProxy.off()
+                            }else{
+                                print("リクエストエラー")
+                            }
                         }
-                    }
+                    })
+                    let cancelAction: UIAlertAction = UIAlertAction(title: "CANCEL", style: UIAlertActionStyle.cancel, handler:{
+                        (action: UIAlertAction!) -> Void in
+                    })
+                    
+                    alert.addAction(cancelAction)
+                    alert.addAction(defaultAction)
+                    self.present(alert, animated: true, completion: nil)
+
         }
     }//end viewDidLoad()
 }

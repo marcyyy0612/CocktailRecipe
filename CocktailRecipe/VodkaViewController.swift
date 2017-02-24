@@ -80,6 +80,7 @@ class VodkaViewController: UIViewController, IndicatorInfoProvider, UITableViewD
         
         nextView.cocktail_name = Cocktails[indexPath.row].name
         nextView.cocktail_image = Cocktails[indexPath.row].img_path
+        nextView.cocktail_method = Cocktails[indexPath.row].method
         nextView.cocktail_comp = Cocktails[indexPath.row].comp
         
         self.navigationController?.pushViewController(nextView, animated: true)
