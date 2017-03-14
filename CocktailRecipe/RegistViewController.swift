@@ -42,7 +42,7 @@ class RegistViewController: FormViewController {
                 row.title = "カクテル名"
                 row.placeholder = "カクテル名入力"
                 }.onChange{row in
-                    upload.name = row.value!
+                    upload.name = row.value
             }
             
             <<< SegmentedRow<String>("Method") {
@@ -113,14 +113,14 @@ class RegistViewController: FormViewController {
                 $0.placeholder = "材料名入力"
                 tempMaterial.append("")
                 }.onChange {row in
-                    tempMaterial[count] = row.value!
+                    tempMaterial[count] = row.value
             }
             <<< TextRow(quantityStr) {
                 $0.title = quantityStr
                 $0.placeholder = "\"ml\" or \"dash\" or \"other\""
                 tempQuantity.append("")
                 }.onChange {row in
-                    tempQuantity[count] = row.value!
+                    tempQuantity[count] = row.value
             }
             
             +++ Section("")
@@ -137,7 +137,7 @@ class RegistViewController: FormViewController {
                             $0.placeholder = "材料名入力"
                             tempMaterial.append("")
                             }.onChange {row in
-                                tempMaterial[count] = row.value!
+                                tempMaterial[count] = row.value
                         }
                         
                         <<< TextRow(quantityStr) {
@@ -145,7 +145,7 @@ class RegistViewController: FormViewController {
                             $0.placeholder = "\"ml\" or \"dash\" or \"other\""
                             tempQuantity.append("")
                             }.onChange {row in
-                                tempQuantity[count] = row.value!
+                                tempQuantity[count] = row.value
                     }
             }
             
